@@ -13,15 +13,9 @@
     --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
-* {
-    color-scheme: light only;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* ===== RESET & BASE ===== */
 * {
+    color-scheme: light only;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -106,6 +100,7 @@ body {
     color: white;
     padding-top: 80px;
 }
+
 /* Profile Image */
 .profile-image {
     width: 200px;
@@ -225,6 +220,7 @@ body {
     font-size: 1.5rem;
     transition: transform 0.3s;
 }
+
 .social-links a svg {
     width: 1.5rem;
     height: 1.5rem;
@@ -238,6 +234,7 @@ body {
 .social-links a:hover {
     transform: scale(1.2);
 }
+
 /* HuggingFace Emoji Link */
 .hf-link {
     font-size: 1.8rem;
@@ -246,6 +243,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 /* ===== SECTIONS ===== */
 .section-title {
     text-align: center;
@@ -287,6 +285,14 @@ body {
     line-height: 1.8;
     margin: 1.5rem 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Features Title */
+.features-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 4rem 0 2rem;
+    color: var(--text-dark);
 }
 
 /* Feature Cards Grid */
@@ -333,8 +339,6 @@ body {
     line-height: 1.6;
     font-size: 0.95rem;
 }
-
-
 
 .skill-category {
     background: white;
@@ -652,5 +656,20 @@ body {
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+    
+    /* Feature Cards - Responsive */
+    .usp-features-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .feature-card {
+        min-height: auto;
+    }
+
+    .features-title {
+        font-size: 1.5rem;
+        margin: 2rem 0 1.5rem;
     }
 }
