@@ -31,14 +31,15 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="Abdelrahman Habeeb">
+                </div>
                 <h1 class="hero-title">
                     Hi, I'm <span class="highlight">Abdelrahman Habeeb</span>
                 </h1>
                 <h2 class="hero-subtitle">Data Scientist & AI Engineer</h2>
                 <p class="hero-description">
-                    I specialize in government digital transformation and healthcare AI solutions. 
-                    With 4+ years of proven expertise, I help organizations transform complex data 
-                    into actionable insights that drive measurable business impact.
+                    I'm a Data Scientist who builds data-driven solutions, reports, and practical machine learning and deep learning models. With 4+ years of experience working with real operational and customer data, I help teams turn messy data into clear insights, automated reports, and ML/DL-powered tools using Python, SQL, and modern AI frameworks.
                 </p>
                 <div class="hero-stats">
                     <div class="stat">
@@ -59,10 +60,13 @@
                     <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                 </div>
                 <div class="social-links">
-                    <a href="https://linkedin.com/in/abdrhmnr" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/abdrhmnr" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="mailto:abdrhmner@gmail.com"><i class="fas fa-envelope"></i></a>
-                </div>
+    <a href="https://linkedin.com/in/abdrhmnr" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/abdrhmnr" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://huggingface.co/abdrhmnr" target="_blank" aria-label="HuggingFace" class="hf-link">
+        🤗
+    </a>
+    <a href="mailto:abdrhmner@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+</div>
             </div>
         </div>
     </section>
@@ -75,20 +79,9 @@
                 <div class="about-text">
                     <h3>My Unique Value Proposition</h3>
                     <p class="usp-statement">
-                        I'm a Data Scientist & AI Engineer specializing in government digital 
-                        transformation and healthcare AI solutions. With 4+ years of proven expertise 
-                        and a track record of delivering 77% efficiency improvements, I help organizations 
-                        transform complex data into actionable insights that drive measurable business impact.
+                        I'm a Data Scientist who builds data-driven solutions, reports, and practical machine learning and deep learning models. With 4+ years of hands-on experience analyzing government operations and customer data, I specialize in taking messy, real-world datasets and turning them into clear dashboards, automated reports, and production-ready ML models. I work with Python (Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow), SQL databases, and visualization tools (Matplotlib, Seaborn, Power BI) to deliver solutions that actually work in production—not just notebooks. My track record includes reducing processing time by 77%, resolving 8,500+ cases, and building systems that teams actually use daily.
                     </p>
                     
-                    <h3>What Sets Me Apart</h3>
-                    <ul class="usp-features">
-                        <li><i class="fas fa-check"></i> <strong>Government-Scale Expertise:</strong> Led digital transformation projects with World Bank and Egyptian Government</li>
-                        <li><i class="fas fa-check"></i> <strong>Proven Results:</strong> 77% reduction in processing time, 25% improvement in accuracy</li>
-                        <li><i class="fas fa-check"></i> <strong>Entrepreneurial Mindset:</strong> Co-founder of AI-driven startup (EDES-IT)</li>
-                        <li><i class="fas fa-check"></i> <strong>Full-Stack AI Skills:</strong> From ML models to deployment and business intelligence</li>
-                    </ul>
-
                     <a href="assets/resume.pdf" class="btn btn-primary" download>
                         <i class="fas fa-download"></i> Download Resume
                     </a>
@@ -126,6 +119,46 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- What Sets Me Apart - خارج الـ grid ليأخذ عرض كامل -->
+            <h3 class="features-title">What Sets Me Apart</h3>
+            <div class="usp-features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h4>Real-World Experience</h4>
+                    <p>4+ years working with actual government operations data, not just academic projects</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-cogs"></i>
+                    <h4>End-to-End Solutions</h4>
+                    <p>From raw data analysis to automated reports, dashboards, and deployable ML models</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Proven Impact</h4>
+                    <p>Delivered 77% time reduction, resolved 8,500+ cases, and built systems used by thousands daily</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-code"></i>
+                    <h4>Practical Tech Stack</h4>
+                    <p>Python, SQL, Power BI, PyTorch, TensorFlow, and open-source visualization tools</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h4>Business Understanding</h4>
+                    <p>Strong customer service background - I translate technical work into business value</p>
+                </div>
+                
+                <div class="feature-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h4>ML System Integration</h4>
+                    <p>Experience building ML models and integrating them into production web applications and business systems</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -135,34 +168,39 @@
             <h2 class="section-title">Services I Offer</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <i class="fas fa-brain"></i>
-                    <h3>AI & Machine Learning Solutions</h3>
-                    <p>Custom ML models for classification, prediction, and automation. From prototype to production deployment.</p>
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Data Analysis & Reporting</h3>
+                    <p>Transform raw data into comprehensive reports with actionable insights using Python (Pandas, NumPy), SQL, and visualization libraries (Matplotlib, Seaborn, Plotly).</p>
                 </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Database Design & Management</h3>
+                    <p>Design and optimize database systems (MySQL, PostgreSQL) tailored to your business needs, ensuring data integrity and efficient query performance.</p>
+                </div>
+                
                 <div class="service-card">
                     <i class="fas fa-chart-line"></i>
-                    <h3>Business Intelligence & Analytics</h3>
-                    <p>Interactive dashboards and data visualization using Power BI and Tableau for data-driven decisions.</p>
+                    <h3>Business Intelligence Dashboards</h3>
+                    <p>Create interactive dashboards and KPI visualizations using Power BI, Tableau, and Python to help stakeholders make data-driven decisions in real-time.</p>
                 </div>
+                
                 <div class="service-card">
-                    <i class="fas fa-hospital"></i>
-                    <h3>Healthcare AI Solutions</h3>
-                    <p>ERP systems and ML-powered automation for medical facilities and healthcare organizations.</p>
+    <i class="fas fa-project-diagram"></i>
+    <h3>ML-Powered System Development</h3>
+    <p>Design and develop machine learning components for web applications and business systems, including requirement analysis, data pipeline design, and model integration.</p>
                 </div>
+                
                 <div class="service-card">
-                    <i class="fas fa-globe"></i>
-                    <h3>Digital Transformation Consulting</h3>
-                    <p>Government and enterprise-level digital transformation strategies and implementation.</p>
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning Models</h3>
+                    <p>Build practical ML models for classification, prediction, and automation using Scikit-learn, PyTorch, and TensorFlow with focus on production-ready solutions.</p>
                 </div>
+                
                 <div class="service-card">
                     <i class="fas fa-robot"></i>
-                    <h3>NLP & Chatbot Development</h3>
-                    <p>RAG-based chatbots and conversational AI using LangChain and Hugging Face.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fas fa-eye"></i>
-                    <h3>Computer Vision Applications</h3>
-                    <p>Image classification, object detection, and real-time recognition systems.</p>
+                    <h3>AI Tools & Automation</h3>
+                    <p>Guide organizations in adopting AI tools, automating repetitive workflows, and integrating machine learning into existing business processes.</p>
                 </div>
             </div>
         </div>
@@ -180,8 +218,7 @@
                         <div class="project-overlay">
                             <a href="https://github.com/abdrhmnr/deep-learning-by-pytorch" target="_blank" class="project-link">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="project-link">
+                            <a href="https://huggingface.co/spaces/abdrhmnr/food_vision_big" target="_blank" class="project-link">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
@@ -253,28 +290,7 @@
                 </div>
 
                 <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/projects/erp-system.jpg" alt="Healthcare ERP">
-                        <div class="project-overlay">
-                            <span class="confidential-badge">Confidential Client Project</span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>AI-Powered Healthcare ERP</h3>
-                        <p>Comprehensive ERP system reducing invoice processing time by 77% with automated workflows and ML classification.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>ML</span>
-                            <span>ERP</span>
-                            <span>Healthcare</span>
-                        </div>
-                        <div class="project-stats">
-                            <span><i class="fas fa-chart-line"></i> 77% Time Reduction</span>
-                            <span><i class="fas fa-building"></i> Enterprise</span>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
             <div class="projects-cta">
                 <a href="https://github.com/abdrhmnr" target="_blank" class="btn btn-primary">
@@ -307,13 +323,7 @@
                             <a href="tel:+201064370390">+20 106 437 0390</a>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Cairo, Egypt</p>
-                        </div>
-                    </div>
+                    
                     <div class="contact-item">
                         <i class="fab fa-linkedin"></i>
                         <div>
