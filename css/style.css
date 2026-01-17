@@ -1,5 +1,6 @@
 /* ===== VARIABLES ===== */
 :root {
+    color-scheme: light only;
     --primary-color: #2563eb;
     --secondary-color: #1e40af;
     --accent-color: #3b82f6;
@@ -10,6 +11,13 @@
     --border-color: #e5e7eb;
     --success-color: #10b981;
     --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+* {
+    color-scheme: light only;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* ===== RESET & BASE ===== */
