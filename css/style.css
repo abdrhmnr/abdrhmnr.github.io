@@ -672,4 +672,104 @@ body {
         font-size: 1.5rem;
         margin: 2rem 0 1.5rem;
     }
+    /* ===== PRINT STYLES (للـ PDF) ===== */
+@media print {
+    /* منع تقطيع العناصر بين الصفحات */
+    .hero,
+    .about,
+    .services,
+    .projects,
+    .contact,
+    .section-title,
+    .feature-card,
+    .service-card,
+    .project-card,
+    .skill-category,
+    .usp-statement {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* إخفاء عناصر غير ضرورية */
+    .navbar,
+    .burger,
+    .social-links,
+    .hero-buttons,
+    .contact-form {
+        display: none !important;
+    }
+
+    /* تحسين المسافات */
+    .hero {
+        min-height: auto;
+        padding: 2rem 0;
+        page-break-after: always;
+    }
+
+    .section-title {
+        page-break-after: avoid;
+        margin-top: 2rem;
+    }
+
+    /* منع الأيتام والأرامل */
+    p, li {
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* تصغير الخطوط قليلاً */
+    body {
+        font-size: 11pt;
+    }
+
+    .hero-title {
+        font-size: 28pt;
+    }
+
+    .hero-subtitle {
+        font-size: 18pt;
+    }
+
+    .section-title {
+        font-size: 20pt;
+    }
+
+    /* البطاقات */
+    .feature-card,
+    .service-card {
+        page-break-inside: avoid;
+        margin-bottom: 1rem;
+    }
+
+    .usp-features-grid,
+    .services-grid {
+        display: block;
+    }
+
+    .feature-card,
+    .service-card {
+        display: inline-block;
+        width: 48%;
+        margin: 0.5%;
+        vertical-align: top;
+    }
+
+    /* الروابط */
+    a[href]:after {
+        content: none;
+    }
+
+    /* إزالة الظلال */
+    * {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    /* الألوان */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+}
 }
