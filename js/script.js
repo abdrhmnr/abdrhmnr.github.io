@@ -1009,3 +1009,44 @@ console.log('%c🌙 Toggle dark mode for comfortable viewing!', 'color: #8b5cf6;
 // ===== INITIALIZATION COMPLETE =====
 console.log('%c✨ Portfolio fully loaded and interactive!', 'color: #10b981; font-size: 14px; font-weight: bold;');
 console.log('%c⏱️ Total initialization time: ' + (performance.now() / 1000).toFixed(2) + 's', 'color: #667eea; font-size: 12px;');
+// ===== FORCE PROFILE IMAGE VISIBILITY =====
+document.addEventListener('DOMContentLoaded', function() {
+    // Wait a bit for other scripts to run
+    setTimeout(function() {
+        const hero = document.querySelector('.hero');
+        const heroContent = document.querySelector('.hero-content');
+        const profileImage = document.querySelector('.profile-image');
+        const profileImg = document.querySelector('.profile-image img');
+        
+        // Force visibility
+        [hero, heroContent, profileImage, profileImg].forEach(el => {
+            if (el) {
+                el.style.setProperty('opacity', '1', 'important');
+                el.style.setProperty('visibility', 'visible', 'important');
+                el.style.setProperty('display', 'block', 'important');
+            }
+        });
+        
+        // Remove transform that might hide the element
+        if (profileImage) {
+            profileImage.style.setProperty('transform', 'translateY(0)', 'important');
+        }
+        
+        console.log('✅ Profile image visibility forced');
+    }, 100);
+});
+
+// Also run on window load
+window.addEventListener('load', function() {
+    const profileImage = document.querySelector('.profile-image');
+    const profileImg = document.querySelector('.profile-image img');
+    
+    if (profileImage) {
+        profileImage.style.opacity = '1';
+        profileImage.style.visibility = 'visible';
+    }
+    if (profileImg) {
+        profileImg.style.opacity = '1';
+        profileImg.style.display = 'block';
+    }
+});

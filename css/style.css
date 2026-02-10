@@ -3443,3 +3443,34 @@ body.dark-mode .footer {
         display: block !important;
     }
 }
+/* ===== CRITICAL FIX: Profile Image Visibility ===== */
+.hero,
+.hero-content,
+.profile-image,
+.profile-image img,
+.profile-ring {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}
+
+.profile-image {
+    display: block !important;
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0 auto 2rem !important;
+    animation: float 3s ease-in-out infinite !important;
+}
+
+.profile-image img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+/* Re-enable float animation */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
