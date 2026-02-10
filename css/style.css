@@ -1,4 +1,39 @@
 /* ===== CSS VARIABLES - LIGHT MODE (DEFAULT) ===== */
+.hero,
+.hero-content,
+.profile-image,
+.profile-image img {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+.profile-image {
+    margin: 0 auto 2rem !important;
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.profile-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+/* Desktop and Tablet specific */
+@media (min-width: 769px) {
+    .profile-image {
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: block !important;
+        animation: fadeInUp 1s ease, float 3s ease-in-out infinite !important;
+    }
+    
+    .profile-image img {
+        display: block !important;
+        opacity: 1 !important;
+    }
+}
 :root {
     /* Light Mode Colors */
     --primary-color: #667eea;
@@ -555,8 +590,9 @@ body.dark-mode .theme-toggle .fa-sun {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     animation: fadeInUp 1s ease, float 3s ease-in-out infinite;
     position: relative;
-    display: block; /* ← أضف هذا */
-    z-index: 10; /* ← أضف هذا */
+    display: block;
+    opacity: 1; /* ← مهم */
+    visibility: visible; /* ← مهم */
 }
 
 .profile-image img {
@@ -564,7 +600,8 @@ body.dark-mode .theme-toggle .fa-sun {
     height: 100%;
     object-fit: cover;
     transition: transform var(--transition-normal);
-    display: block; /* ← أضف هذا */
+    display: block; /* ← مهم */
+    opacity: 1; /* ← مهم */
 }
 
 .profile-ring {
@@ -3370,4 +3407,39 @@ body.dark-mode .footer {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+}
+/* ===== DESKTOP/TABLET FIX ===== */
+@media (min-width: 769px) {
+    /* Force hero visibility */
+    .hero {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    
+    .hero-content {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    
+    /* Force profile image visibility */
+    .profile-image {
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: block !important;
+        transform: translateY(0) !important;
+    }
+    
+    .profile-image img {
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: block !important;
+    }
+}
+
+/* Tablet specific */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .profile-image {
+        opacity: 1 !important;
+        display: block !important;
+    }
 }

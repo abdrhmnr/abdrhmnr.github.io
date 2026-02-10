@@ -328,14 +328,36 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe all sections and cards
-document.querySelectorAll('section, .service-card, .project-card, .feature-compact, .recommendation-card, .skill-category').forEach(el => {
+// Observe all sections and cards (EXCEPT hero and profile-image)
+document.querySelectorAll('section:not(.hero), .service-card, .project-card, .feature-compact, .recommendation-card, .skill-category').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(30px)';
     el.style.transition = 'all 0.6s ease';
     observer.observe(el);
 });
 
+// Force hero to be visible immediately
+const heroSection = document.querySelector('.hero');
+if (heroSection) {
+    heroSection.style.opacity = '1';
+    heroSection.style.transform = 'translateY(0)';
+    heroSection.style.visibility = 'visible';
+}
+
+// Force profile image to be visible
+const profileImage = document.querySelector('.profile-image');
+if (profileImage) {
+    profileImage.style.opacity = '1';
+    profileImage.style.transform = 'translateY(0)';
+    profileImage.style.visibility = 'visible';
+    profileImage.style.display = 'block';
+}
+
+const profileImg = document.querySelector('.profile-image img');
+if (profileImg) {
+    profileImg.style.opacity = '1';
+    profileImg.style.display = 'block';
+}
 // ===== FORM VALIDATION & SUBMISSION =====
 const form = document.querySelector('#contactForm');
 const formStatus = document.querySelector('.form-status');
