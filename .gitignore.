@@ -1,0 +1,46 @@
+# إنشاء ملف gitignore.
+cat > .gitignore << 'EOF'
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Database files
+*.sql
+*.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+EOF
+
+echo "✅ .gitignore created"

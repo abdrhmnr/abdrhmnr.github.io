@@ -1,0 +1,76 @@
+{
+  "name": "Abdelrahman Habeeb - Data Scientist & AI Engineer Portfolio",
+  "short_name": "AH Portfolio",
+  "description": "Data Scientist with 4+ years experience in ML, AI, and business intelligence. Specialized in Python, TensorFlow, PyTorch, and Power BI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": [
+    "business",
+    "education",
+    "productivity"
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Projects",
+      "short_name": "Projects",
+      "description": "Browse my featured projects",
+      "url": "/#projects",
+      "icons": [
+        {
+          "src": "images/icon-projects.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact Me",
+      "short_name": "Contact",
+      "description": "Get in touch",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "images/icon-contact.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "lang": "en",
+  "dir": "ltr"
+}
