@@ -889,17 +889,20 @@ section {
     align-items: center;
     padding: 1rem 0;
     margin-bottom: 1rem;
+    background: none;
+    border: none;
+    box-shadow: none;
 }
 
 .visit-counter img {
-    height: 28px;
-    border-radius: 6px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 26px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    display: block;
 }
 
 .visit-counter img:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3);
 }
 /* ===== ABOUT SECTION ===== */
 .about {
