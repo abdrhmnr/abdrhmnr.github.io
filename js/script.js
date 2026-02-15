@@ -15,7 +15,23 @@ window.addEventListener('load', () => {
         }, 500);
     }
 });
+// ===== REAL VISIT COUNTER (GoatCounter) =====
+async function fetchVisitCount() {
+    const countElement = document.getElementById('totalVisits');
+    if (!countElement) return;
+    
+    try {
+        const response = await fetch('https://abdrhmnr.goatcounter.com/counter//TOTAL.json');
+        const data = await response.json();
+        countElement.textContent = parseInt(data.count).toLocaleString();
+    } catch (error) {
+        // Fallback: hide counter if error
+        console.log('Counter not available yet');
+        countElement.textContent = '--';
+    }
+}
 
+document.addEventListener('DOMContentLoaded', fetchVisitCount);
 // ===== DARK MODE TOGGLE =====
 const darkModeToggle = document.getElementById('darkModeToggle');
 const mobileDarkToggle = document.getElementById('mobileDarkToggle');
