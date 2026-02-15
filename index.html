@@ -1,123 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#667eea">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#667eea" />
+
     <!-- SEO Meta Tags -->
-    <title>Abdelrahman Habeeb | Data Scientist </title>
-    <meta name="description" content="Data Scientist with 4+ years experience in ML, AI, and business intelligence. Specialized in Python, TensorFlow, PyTorch, and Power BI.">
-    <meta name="keywords" content="Data Scientist, Machine Learning, AI Engineer, Python, TensorFlow, PyTorch, Data Analysis, Power BI">
-    <meta name="author" content="Abdelrahman Habeeb">
-    
+    <title>Abdelrahman Habeeb | Data Scientist</title>
+    <meta
+      name="description"
+      content="Data Scientist with 4+ years experience in ML, AI, and business intelligence. Specialized in Python, TensorFlow, PyTorch, and Power BI."
+    />
+    <meta
+      name="keywords"
+      content="Data Scientist, Machine Learning, AI Engineer, Python, TensorFlow, PyTorch, Data Analysis, Power BI"
+    />
+    <meta name="author" content="Abdelrahman Habeeb" />
+
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Abdelrahman Habeeb | Data Scientist ">
-    <meta property="og:description" content="Building data-driven solutions with 4+ years of experience in ML, AI, and business intelligence">
-<meta property="og:image" content="https://abdrhmnr.github.io/images/og-image.jpg">
-<meta property="og:url" content="https://abdrhmnr.github.io/">    <meta property="og:url" content="https://abdrhmnr.github.io">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Abdelrahman Habeeb Portfolio">
-    
+    <meta property="og:title" content="Abdelrahman Habeeb | Data Scientist " />
+    <meta
+      property="og:description"
+      content="Building data-driven solutions with 4+ years of experience in ML, AI, and business intelligence"
+    />
+    <meta
+      property="og:image"
+      content="https://abdrhmnr.github.io/images/og-image.jpg"
+    />
+    <meta property="og:url" content="https://abdrhmnr.github.io/" />
+    <meta property="og:url" content="https://abdrhmnr.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Abdelrahman Habeeb Portfolio" />
+
     <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Abdelrahman Habeeb | Data Scientist">
-    <meta name="twitter:description" content="Data Scientist specializing in ML and AI solutions">
-    <meta name="twitter:image" content="images/twitter-card.jpg">
-    <meta name="twitter:creator" content="@abdrhmnr">
-    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Abdelrahman Habeeb | Data Scientist" />
+    <meta
+      name="twitter:description"
+      content="Data Scientist specializing in ML and AI solutions"
+    />
+    <meta name="twitter:image" content="images/twitter-card.jpg" />
+    <meta name="twitter:creator" content="@abdrhmnr" />
+
     <!-- Security Headers -->
-    <meta http-equiv="Content-Security-Policy" 
+    <meta
+      http-equiv="Content-Security-Policy"
       content="default-src 'self'; 
                script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://gc.zgo.at; 
                style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
                img-src 'self' data: https:;
                font-src 'self' https://cdnjs.cloudflare.com;
-               connect-src 'self' https://formspree.io https://*.goatcounter.com;">
-    
+               connect-src 'self' https://formspree.io https://*.goatcounter.com;"
+    />
+
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="manifest" href="manifest.json">
-    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="manifest.json" />
+
     <!-- Preconnect for Performance -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
-    <link rel="dns-prefetch" href="https://formspree.io">
-    
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+    <link rel="dns-prefetch" href="https://formspree.io" />
+
     <!-- Preload Critical Assets -->
-    <link rel="preload" href="css/style.css" as="style">
-    <link rel="preload" href="js/script.js" as="script">
-    <link rel="preload" href="images/profile.jpg" as="image">
-    
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="preload" href="js/script.js" as="script" />
+    <link rel="preload" href="images/profile.jpg" as="image" />
+
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/style.css" />
+
     <!-- Font Awesome with optimized loading -->
-    <link rel="preload" 
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
-          as="style" 
-          onload="this.onload=null;this.rel='stylesheet'">
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
     <noscript>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      />
     </noscript>
-    
+
     <!-- Structured Data (Schema.org) -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Abdelrahman Habeeb",
-      "jobTitle": "Data Scientist",
-      "url": "https://abdrhmnr.github.io",
-      "image": "https://abdrhmnr.github.io/images/profile.jpg",
-      "sameAs": [
-        "https://linkedin.com/in/abdrhmnr",
-        "https://github.com/abdrhmnr",
-        "https://huggingface.co/abdrhmnr"
-      ],
-      "email": "abdrhmnr1@gmail.com",
-      "telephone": "+201064370390",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "Egypt"
-      },
-      "description": "Data Scientist with 4+ years experience in ML, AI, and business intelligence. Specialized in Python, TensorFlow, PyTorch, and Power BI.",
-      "knowsAbout": [
-        "Machine Learning",
-        "Deep Learning", 
-        "Data Science",
-        "Python",
-        "Artificial Intelligence",
-        "TensorFlow",
-        "PyTorch",
-        "Power BI",
-        "Data Analysis",
-        "Natural Language Processing",
-        "Computer Vision"
-      ],
-      "hasOccupation": {
-        "@type": "Occupation",
-        "name": "Data Scientist",
-        "occupationLocation": {
-          "@type": "Country",
-          "name": "Egypt"
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Abdelrahman Habeeb",
+        "jobTitle": "Data Scientist",
+        "url": "https://abdrhmnr.github.io",
+        "image": "https://abdrhmnr.github.io/images/profile.jpg",
+        "sameAs": [
+          "https://linkedin.com/in/abdrhmnr",
+          "https://github.com/abdrhmnr",
+          "https://huggingface.co/abdrhmnr"
+        ],
+        "email": "abdrhmnr1@gmail.com",
+        "telephone": "+201064370390",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Egypt"
         },
-        "estimatedSalary": {
-          "@type": "MonetaryAmountDistribution",
-          "name": "Senior Data Scientist"
+        "description": "Data Scientist with 4+ years experience in ML, AI, and business intelligence. Specialized in Python, TensorFlow, PyTorch, and Power BI.",
+        "knowsAbout": [
+          "Machine Learning",
+          "Deep Learning",
+          "Data Science",
+          "Python",
+          "Artificial Intelligence",
+          "TensorFlow",
+          "PyTorch",
+          "Power BI",
+          "Data Analysis",
+          "Natural Language Processing",
+          "Computer Vision"
+        ],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Data Scientist",
+          "occupationLocation": {
+            "@type": "Country",
+            "name": "Egypt"
+          },
+          "estimatedSalary": {
+            "@type": "MonetaryAmountDistribution",
+            "name": "Senior Data Scientist"
+          }
         }
       }
-    }
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Page Loader -->
     <div class="page-loader" aria-label="Loading page content">
-        <div class="loader-spinner"></div>
-        <p>Loading Portfolio...</p>
+      <div class="loader-spinner"></div>
+      <p>Loading Portfolio...</p>
     </div>
 
     <!-- Skip to Main Content (Accessibility) -->
@@ -125,1349 +165,2046 @@
 
     <!-- Navigation -->
     <nav class="navbar" role="navigation" aria-label="Main navigation">
-        <div class="container">
-            <div class="logo">
-                <span class="logo-icon" aria-label="Abdelrahman Habeeb">AH</span>
-            </div>
-            <ul class="nav-links" role="menubar">
-                <li role="none"><a href="#home" class="nav-link" role="menuitem"><i class="fas fa-home"></i> Home</a></li>
-                <li role="none"><a href="#about" class="nav-link" role="menuitem"><i class="fas fa-user"></i> About</a></li>
-                <li role="none"><a href="#skills" class="nav-link" role="menuitem"><i class="fas fa-code"></i> Skills</a></li>
-                <li role="none"><a href="#services" class="nav-link" role="menuitem"><i class="fas fa-briefcase"></i> Services</a></li>
-                <li role="none"><a href="#projects" class="nav-link" role="menuitem"><i class="fas fa-project-diagram"></i> Projects</a></li>
-                <li role="none"><a href="#clients" class="nav-link" role="menuitem"><i class="fas fa-handshake"></i> Clients</a></li>
-                <li role="none"><a href="#recommendations" class="nav-link" role="menuitem"><i class="fas fa-star"></i> Recommendations</a></li>
-                <li role="none"><a href="#contact" class="nav-link" role="menuitem"><i class="fas fa-envelope"></i> Contact</a></li>
-                
-                <!-- Mobile Theme Controls -->
-                <li class="mobile-theme-controls" role="none">
-                    <div class="mobile-theme-section">
-                        <h4><i class="fas fa-palette"></i> Theme Settings</h4>
-                        
-                        <!-- Dark Mode Toggle -->
-                        <button class="mobile-dark-toggle" 
-                                id="mobileDarkToggle" 
-                                aria-label="Toggle dark mode"
-                                aria-pressed="false">
-                            <i class="fas fa-moon"></i>
-                            <span>Dark Mode</span>
-                            <div class="toggle-switch">
-                                <div class="toggle-slider"></div>
-                            </div>
-                        </button>
-                        
-                        <!-- Color Themes -->
-                        <div class="mobile-color-themes">
-                            <span class="theme-label">Colors:</span>
-                            <div class="mobile-color-grid" role="radiogroup" aria-label="Choose color theme">
-                                <button class="mobile-color-option active" 
-                                        data-color="blue" 
-                                        style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);" 
-                                        title="Blue Purple"
-                                        role="radio"
-                                        aria-checked="true"
-                                        aria-label="Blue Purple theme"></button>
-                                <button class="mobile-color-option" 
-                                        data-color="green" 
-                                        style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);" 
-                                        title="Green"
-                                        role="radio"
-                                        aria-checked="false"
-                                        aria-label="Green theme"></button>
-                                <button class="mobile-color-option" 
-                                        data-color="orange" 
-                                        style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);" 
-                                        title="Pink Red"
-                                        role="radio"
-                                        aria-checked="false"
-                                        aria-label="Pink Red theme"></button>
-                                <button class="mobile-color-option" 
-                                        data-color="purple" 
-                                        style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);" 
-                                        title="Cyan Blue"
-                                        role="radio"
-                                        aria-checked="false"
-                                        aria-label="Cyan Blue theme"></button>
-                                <button class="mobile-color-option" 
-                                        data-color="red" 
-                                        style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);" 
-                                        title="Pink Yellow"
-                                        role="radio"
-                                        aria-checked="false"
-                                        aria-label="Pink Yellow theme"></button>
-                                <button class="mobile-color-option" 
-                                        data-color="teal" 
-                                        style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);" 
-                                        title="Teal Purple"
-                                        role="radio"
-                                        aria-checked="false"
-                                        aria-label="Teal Purple theme"></button>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            
-            <!-- Desktop Theme Controls -->
-            <div class="theme-controls desktop-only">
-                <!-- Dark Mode Toggle -->
-                <button class="theme-toggle" 
-                        id="darkModeToggle" 
-                        aria-label="Toggle dark mode"
-                        aria-pressed="false">
-                    <i class="fas fa-moon"></i>
-                    <i class="fas fa-sun"></i>
-                </button>
-                
-                <!-- Color Theme Picker -->
-                <div class="color-picker-wrapper">
-                    <button class="color-picker-btn" 
-                            id="colorPickerBtn" 
-                            aria-label="Choose color theme"
-                            aria-expanded="false"
-                            aria-haspopup="true">
-                        <i class="fas fa-palette"></i>
-                    </button>
-                    <div class="color-picker-menu" 
-                         id="colorPickerMenu" 
-                         role="menu"
-                         aria-label="Color theme options">
-                        <h4>Choose Theme Color</h4>
-                        <div class="color-options" role="radiogroup">
-                            <button class="color-option active" 
-                                    data-color="blue" 
-                                    style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);" 
-                                    title="Blue Purple"
-                                    role="radio"
-                                    aria-checked="true"
-                                    aria-label="Blue Purple theme"></button>
-                            <button class="color-option" 
-                                    data-color="green" 
-                                    style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);" 
-                                    title="Green"
-                                    role="radio"
-                                    aria-checked="false"
-                                    aria-label="Green theme"></button>
-                            <button class="color-option" 
-                                    data-color="orange" 
-                                    style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);" 
-                                    title="Pink Red"
-                                    role="radio"
-                                    aria-checked="false"
-                                    aria-label="Pink Red theme"></button>
-                            <button class="color-option" 
-                                    data-color="purple" 
-                                    style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);" 
-                                    title="Cyan Blue"
-                                    role="radio"
-                                    aria-checked="false"
-                                    aria-label="Cyan Blue theme"></button>
-                            <button class="color-option" 
-                                    data-color="red" 
-                                    style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);" 
-                                    title="Pink Yellow"
-                                    role="radio"
-                                    aria-checked="false"
-                                    aria-label="Pink Yellow theme"></button>
-                            <button class="color-option" 
-                                    data-color="teal" 
-                                    style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);" 
-                                    title="Teal Purple"
-                                    role="radio"
-                                    aria-checked="false"
-                                    aria-label="Teal Purple theme"></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <button class="burger" 
-                    aria-label="Toggle navigation menu" 
-                    aria-expanded="false"
-                    aria-controls="main-navigation">
-                <span class="line1"></span>
-                <span class="line2"></span>
-                <span class="line3"></span>
-            </button>
+      <div class="container">
+        <div class="logo">
+          <span class="logo-icon" aria-label="Abdelrahman Habeeb">AH</span>
         </div>
+        <ul class="nav-links" role="menubar">
+          <li role="none">
+            <a href="#home" class="nav-link" role="menuitem"
+              ><i class="fas fa-home"></i> Home</a
+            >
+          </li>
+          <li role="none">
+            <a href="#about" class="nav-link" role="menuitem"
+              ><i class="fas fa-user"></i> About</a
+            >
+          </li>
+          <li role="none">
+            <a href="#skills" class="nav-link" role="menuitem"
+              ><i class="fas fa-code"></i> Skills</a
+            >
+          </li>
+          <li role="none">
+            <a href="#services" class="nav-link" role="menuitem"
+              ><i class="fas fa-briefcase"></i> Services</a
+            >
+          </li>
+          <li role="none">
+            <a href="#projects" class="nav-link" role="menuitem"
+              ><i class="fas fa-project-diagram"></i> Projects</a
+            >
+          </li>
+          <li role="none">
+            <a href="#clients" class="nav-link" role="menuitem"
+              ><i class="fas fa-handshake"></i> Clients</a
+            >
+          </li>
+          <li role="none">
+            <a href="#recommendations" class="nav-link" role="menuitem"
+              ><i class="fas fa-star"></i> Recommendations</a
+            >
+          </li>
+          <li role="none">
+            <a href="#contact" class="nav-link" role="menuitem"
+              ><i class="fas fa-envelope"></i> Contact</a
+            >
+          </li>
+
+          <!-- Mobile Theme Controls -->
+          <li class="mobile-theme-controls" role="none">
+            <div class="mobile-theme-section">
+              <h4><i class="fas fa-palette"></i> Theme Settings</h4>
+
+              <!-- Dark Mode Toggle -->
+              <button
+                class="mobile-dark-toggle"
+                id="mobileDarkToggle"
+                aria-label="Toggle dark mode"
+                aria-pressed="false"
+              >
+                <i class="fas fa-moon"></i>
+                <span>Dark Mode</span>
+                <div class="toggle-switch">
+                  <div class="toggle-slider"></div>
+                </div>
+              </button>
+
+              <!-- Color Themes -->
+              <div class="mobile-color-themes">
+                <span class="theme-label">Colors:</span>
+                <div
+                  class="mobile-color-grid"
+                  role="radiogroup"
+                  aria-label="Choose color theme"
+                >
+                  <button
+                    class="mobile-color-option active"
+                    data-color="blue"
+                    style="
+                      background: linear-gradient(
+                        135deg,
+                        #667eea 0%,
+                        #764ba2 100%
+                      );
+                    "
+                    title="Blue Purple"
+                    role="radio"
+                    aria-checked="true"
+                    aria-label="Blue Purple theme"
+                  ></button>
+                  <button
+                    class="mobile-color-option"
+                    data-color="green"
+                    style="
+                      background: linear-gradient(
+                        135deg,
+                        #11998e 0%,
+                        #38ef7d 100%
+                      );
+                    "
+                    title="Green"
+                    role="radio"
+                    aria-checked="false"
+                    aria-label="Green theme"
+                  ></button>
+                  <button
+                    class="mobile-color-option"
+                    data-color="orange"
+                    style="
+                      background: linear-gradient(
+                        135deg,
+                        #f093fb 0%,
+                        #f5576c 100%
+                      );
+                    "
+                    title="Pink Red"
+                    role="radio"
+                    aria-checked="false"
+                    aria-label="Pink Red theme"
+                  ></button>
+                  <button
+                    class="mobile-color-option"
+                    data-color="purple"
+                    style="
+                      background: linear-gradient(
+                        135deg,
+                        #4facfe 0%,
+                        #00f2fe 100%
+                      );
+                    "
+                    title="Cyan Blue"
+                    role="radio"
+                    aria-checked="false"
+                    aria-label="Cyan Blue theme"
+                  ></button>
+                  <button
+                    class="mobile-color-option"
+                    data-color="red"
+                    style="
+                      background: linear-gradient(
+                        135deg,
+                        #fa709a 0%,
+                        #fee140 100%
+                      );
+                    "
+                    title="Pink Yellow"
+                    role="radio"
+                    aria-checked="false"
+                    aria-label="Pink Yellow theme"
+                  ></button>
+                  <button
+                    class="mobile-color-option"
+                    data-color="teal"
+                    style="
+                      background: linear-gradient(
+                        135deg,
+                        #30cfd0 0%,
+                        #330867 100%
+                      );
+                    "
+                    title="Teal Purple"
+                    role="radio"
+                    aria-checked="false"
+                    aria-label="Teal Purple theme"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Desktop Theme Controls -->
+        <div class="theme-controls desktop-only">
+          <!-- Dark Mode Toggle -->
+          <button
+            class="theme-toggle"
+            id="darkModeToggle"
+            aria-label="Toggle dark mode"
+            aria-pressed="false"
+          >
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+
+          <!-- Color Theme Picker -->
+          <div class="color-picker-wrapper">
+            <button
+              class="color-picker-btn"
+              id="colorPickerBtn"
+              aria-label="Choose color theme"
+              aria-expanded="false"
+              aria-haspopup="true"
+            >
+              <i class="fas fa-palette"></i>
+            </button>
+            <div
+              class="color-picker-menu"
+              id="colorPickerMenu"
+              role="menu"
+              aria-label="Color theme options"
+            >
+              <h4>Choose Theme Color</h4>
+              <div class="color-options" role="radiogroup">
+                <button
+                  class="color-option active"
+                  data-color="blue"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #667eea 0%,
+                      #764ba2 100%
+                    );
+                  "
+                  title="Blue Purple"
+                  role="radio"
+                  aria-checked="true"
+                  aria-label="Blue Purple theme"
+                ></button>
+                <button
+                  class="color-option"
+                  data-color="green"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #11998e 0%,
+                      #38ef7d 100%
+                    );
+                  "
+                  title="Green"
+                  role="radio"
+                  aria-checked="false"
+                  aria-label="Green theme"
+                ></button>
+                <button
+                  class="color-option"
+                  data-color="orange"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #f093fb 0%,
+                      #f5576c 100%
+                    );
+                  "
+                  title="Pink Red"
+                  role="radio"
+                  aria-checked="false"
+                  aria-label="Pink Red theme"
+                ></button>
+                <button
+                  class="color-option"
+                  data-color="purple"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #4facfe 0%,
+                      #00f2fe 100%
+                    );
+                  "
+                  title="Cyan Blue"
+                  role="radio"
+                  aria-checked="false"
+                  aria-label="Cyan Blue theme"
+                ></button>
+                <button
+                  class="color-option"
+                  data-color="red"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #fa709a 0%,
+                      #fee140 100%
+                    );
+                  "
+                  title="Pink Yellow"
+                  role="radio"
+                  aria-checked="false"
+                  aria-label="Pink Yellow theme"
+                ></button>
+                <button
+                  class="color-option"
+                  data-color="teal"
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #30cfd0 0%,
+                      #330867 100%
+                    );
+                  "
+                  title="Teal Purple"
+                  role="radio"
+                  aria-checked="false"
+                  aria-label="Teal Purple theme"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="burger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </button>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="profile-image">
-                    <img 
-                        src="images/profile.jpg"
-                        srcset="images/profile-small.jpg 400w,
-                                images/profile.jpg 800w"
-                        sizes="(max-width: 768px) 150px, 200px"
-                        alt="Abdelrahman Habeeb - Data Scientist "
-                        loading="eager"
-                        data-fallback="https://via.placeholder.com/200x200/667eea/ffffff?text=AH"
-                        width="200"
-                        height="200"
-                    >
-                    <div class="profile-ring" aria-hidden="true"></div>
-                </div>
-                <h1 class="hero-title">
-                    Hi, I'm <span class="highlight">Abdelrahman Habeeb</span>
-                </h1>
-                <h2 class="hero-subtitle">Data Scientist</h2>
-                <p class="hero-description">
-                    I'm a Data Scientist who builds data-driven solutions, reports, and practical machine learning and deep learning models. With 4+ years of experience working with real operational and customer data, I help teams turn messy data into clear insights, automated reports, and ML/DL-powered tools using Python, SQL, and modern AI frameworks.
-                </p>
-                <div class="hero-stats">
-                    <div class="stat">
-                        <div class="stat-icon" aria-hidden="true"><i class="fas fa-briefcase"></i></div>
-                        <h3 data-target="4" aria-label="4 plus years experience">4+</h3>
-                        <p>Years Experience</p>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-icon" aria-hidden="true"><i class="fas fa-chart-line"></i></div>
-                        <h3 data-target="77" aria-label="77 percent efficiency improvement">77%</h3>
-                        <p>Efficiency Improvement</p>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-icon" aria-hidden="true"><i class="fas fa-check-circle"></i></div>
-                        <h3 data-target="8500" aria-label="8500 plus cases resolved">8500+</h3>
-                        <p>Cases Resolved</p>
-                    </div>
-                </div>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        <i class="fas fa-rocket" aria-hidden="true"></i> View My Work
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <i class="fas fa-envelope" aria-hidden="true"></i> Get In Touch
-                    </a>
-                </div>
-                <div class="social-links" role="list" aria-label="Social media links">
-                    <a href="https://linkedin.com/in/abdrhmnr" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       aria-label="LinkedIn Profile" 
-                       class="social-link">
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://github.com/abdrhmnr" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       aria-label="GitHub Profile" 
-                       class="social-link">
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://huggingface.co/abdrhmnr" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       aria-label="HuggingFace Profile" 
-                       class="social-link hf-link">
-                        <span aria-hidden="true">🤗</span>
-                    </a>
-                    <a href="mailto:abdrhmnr1@gmail.com" 
-                       aria-label="Email Contact" 
-                       class="social-link">
-                        <i class="fas fa-envelope" aria-hidden="true"></i>
-                    </a>
-                </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="profile-image">
+            <img
+              src="images/profile.jpg"
+              srcset="images/profile-small.jpg 400w, images/profile.jpg 800w"
+              sizes="(max-width: 768px) 150px, 200px"
+              alt="Abdelrahman Habeeb - Data Scientist "
+              loading="eager"
+              data-fallback="https://via.placeholder.com/200x200/667eea/ffffff?text=AH"
+              width="200"
+              height="200"
+            />
+            <div class="profile-ring" aria-hidden="true"></div>
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Abdelrahman Habeeb</span>
+          </h1>
+          <h2 class="hero-subtitle">Data Scientist</h2>
+          <p class="hero-description">
+            I'm a Data Scientist who builds data-driven solutions, reports, and
+            practical machine learning and deep learning models. With 4+ years
+            of experience working with real operational and customer data, I
+            help teams turn messy data into clear insights, automated reports,
+            and ML/DL-powered tools using Python, SQL, and modern AI frameworks.
+          </p>
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-icon" aria-hidden="true">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <h3 data-target="4" aria-label="4 plus years experience">4+</h3>
+              <p>Years Experience</p>
             </div>
+            <div class="stat">
+              <div class="stat-icon" aria-hidden="true">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3
+                data-target="77"
+                aria-label="77 percent efficiency improvement"
+              >
+                77%
+              </h3>
+              <p>Efficiency Improvement</p>
+            </div>
+            <div class="stat">
+              <div class="stat-icon" aria-hidden="true">
+                <i class="fas fa-check-circle"></i>
+              </div>
+              <h3 data-target="8500" aria-label="8500 plus cases resolved">
+                8500+
+              </h3>
+              <p>Cases Resolved</p>
+            </div>
+          </div>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-rocket" aria-hidden="true"></i> View My Work
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fas fa-envelope" aria-hidden="true"></i> Get In Touch
+            </a>
+          </div>
+          <div class="social-links" role="list" aria-label="Social media links">
+            <a
+              href="https://linkedin.com/in/abdrhmnr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn Profile"
+              class="social-link"
+            >
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://github.com/abdrhmnr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub Profile"
+              class="social-link"
+            >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://huggingface.co/abdrhmnr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="HuggingFace Profile"
+              class="social-link hf-link"
+            >
+              <span aria-hidden="true">🤗</span>
+            </a>
+            <a
+              href="mailto:abdrhmnr1@gmail.com"
+              aria-label="Email Contact"
+              class="social-link"
+            >
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content-simple">
-                <div class="about-main">
-                    <h3><i class="fas fa-star" aria-hidden="true"></i> My Unique Value Proposition</h3>
-                    <p class="usp-statement">
-                        I'm a Data Scientist who builds data-driven solutions, reports, and practical machine learning and deep learning models. With 4+ years of hands-on experience analyzing government operations and customer data, I specialize in taking messy, real-world datasets and turning them into clear dashboards, automated reports, and production-ready ML models. I work with Python (Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow), SQL databases, and visualization tools (Matplotlib, Seaborn, Power BI) to deliver solutions that actually work in production—not just notebooks.
-                    </p>
-                    <p class="usp-statement">
-                        My track record includes reducing processing time by 77%, resolving 8,500+ cases, and building systems that teams actually use daily.
-                    </p>
-                    
-                    <div class="about-cta">
-                        <a href="assets/resume.pdf" 
-                           class="btn btn-primary" 
-                           download 
-                           aria-label="Download Resume PDF">
-                            <i class="fas fa-download" aria-hidden="true"></i> Download Resume
-                        </a>
-                        <a href="#skills" class="btn btn-secondary">
-                            <i class="fas fa-code" aria-hidden="true"></i> View Skills
-                        </a>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content-simple">
+          <div class="about-main">
+            <h3>
+              <i class="fas fa-star" aria-hidden="true"></i> My Unique Value
+              Proposition
+            </h3>
+            <p class="usp-statement">
+              I'm a Data Scientist who builds data-driven solutions, reports,
+              and practical machine learning and deep learning models. With 4+
+              years of hands-on experience analyzing government operations and
+              customer data, I specialize in taking messy, real-world datasets
+              and turning them into clear dashboards, automated reports, and
+              production-ready ML models. I work with Python (Pandas, NumPy,
+              Scikit-learn, PyTorch, TensorFlow), SQL databases, and
+              visualization tools (Matplotlib, Seaborn, Power BI) to deliver
+              solutions that actually work in production—not just notebooks.
+            </p>
+            <p class="usp-statement">
+              My track record includes reducing processing time by 77%,
+              resolving 8,500+ cases, and building systems that teams actually
+              use daily.
+            </p>
 
-                <!-- What Sets Me Apart -->
-                <div class="about-features">
-                    <h3><i class="fas fa-trophy" aria-hidden="true"></i> What Sets Me Apart</h3>
-                    <div class="features-compact-grid">
-                        <div class="feature-compact">
-                            <i class="fas fa-briefcase" aria-hidden="true"></i>
-                            <h4>Real-World Experience</h4>
-                            <p>4+ years with government operations data</p>
-                        </div>
-                        
-                        <div class="feature-compact">
-                            <i class="fas fa-cogs" aria-hidden="true"></i>
-                            <h4>End-to-End Solutions</h4>
-                            <p>From raw data to production models</p>
-                        </div>
-                        
-                        <div class="feature-compact">
-                            <i class="fas fa-chart-line" aria-hidden="true"></i>
-                            <h4>Proven Impact</h4>
-                            <p>77% time reduction, 8,500+ cases</p>
-                        </div>
-                        
-                        <div class="feature-compact">
-                            <i class="fas fa-code" aria-hidden="true"></i>
-                            <h4>Practical Tech Stack</h4>
-                            <p>Python, SQL, Power BI, PyTorch</p>
-                        </div>
-                        
-                        <div class="feature-compact">
-                            <i class="fas fa-users" aria-hidden="true"></i>
-                            <h4>Business Understanding</h4>
-                            <p>Technical work to business value</p>
-                        </div>
-                        
-                        <div class="feature-compact">
-                            <i class="fas fa-project-diagram" aria-hidden="true"></i>
-                            <h4>ML Integration</h4>
-                            <p>Production systems & web apps</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="about-cta">
+              <a
+                href="assets/resume.pdf"
+                class="btn btn-primary"
+                download
+                aria-label="Download Resume PDF"
+              >
+                <i class="fas fa-download" aria-hidden="true"></i> Download
+                Resume
+              </a>
+              <a href="#skills" class="btn btn-secondary">
+                <i class="fas fa-code" aria-hidden="true"></i> View Skills
+              </a>
             </div>
+          </div>
+
+          <!-- What Sets Me Apart -->
+          <div class="about-features">
+            <h3>
+              <i class="fas fa-trophy" aria-hidden="true"></i> What Sets Me
+              Apart
+            </h3>
+            <div class="features-compact-grid">
+              <div class="feature-compact">
+                <i class="fas fa-briefcase" aria-hidden="true"></i>
+                <h4>Real-World Experience</h4>
+                <p>4+ years with government operations data</p>
+              </div>
+
+              <div class="feature-compact">
+                <i class="fas fa-cogs" aria-hidden="true"></i>
+                <h4>End-to-End Solutions</h4>
+                <p>From raw data to production models</p>
+              </div>
+
+              <div class="feature-compact">
+                <i class="fas fa-chart-line" aria-hidden="true"></i>
+                <h4>Proven Impact</h4>
+                <p>77% time reduction, 8,500+ cases</p>
+              </div>
+
+              <div class="feature-compact">
+                <i class="fas fa-code" aria-hidden="true"></i>
+                <h4>Practical Tech Stack</h4>
+                <p>Python, SQL, Power BI, PyTorch</p>
+              </div>
+
+              <div class="feature-compact">
+                <i class="fas fa-users" aria-hidden="true"></i>
+                <h4>Business Understanding</h4>
+                <p>Technical work to business value</p>
+              </div>
+
+              <div class="feature-compact">
+                <i class="fas fa-project-diagram" aria-hidden="true"></i>
+                <h4>ML Integration</h4>
+                <p>Production systems & web apps</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills-section">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <p class="section-subtitle">
-                Comprehensive expertise across the full data science and AI development stack
-            </p>
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">
+          Comprehensive expertise across the full data science and AI
+          development stack
+        </p>
 
-            <!-- Skills Categories Grid -->
-            <div class="skills-categories-grid">
-                <!-- AI & Machine Learning -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-brain" aria-hidden="true"></i>
-                        <h4>AI & Machine Learning</h4>
-                    </div>
-                    <div class="skills-grid">
-                        <span class="skill-tag"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
-                        <span class="skill-tag"><i class="fas fa-project-diagram" aria-hidden="true"></i> TensorFlow</span>
-                        <span class="skill-tag"><i class="fas fa-fire" aria-hidden="true"></i> PyTorch</span>
-                        <span class="skill-tag"><i class="fas fa-brain" aria-hidden="true"></i> Scikit-learn</span>
-                        <span class="skill-tag"><i class="fas fa-network-wired" aria-hidden="true"></i> Keras</span>
-                        <span class="skill-tag"><i class="fas fa-robot" aria-hidden="true"></i> Deep Learning</span>
-                        <span class="skill-tag"><i class="fas fa-comment-dots" aria-hidden="true"></i> NLP</span>
-                        <span class="skill-tag"><i class="fas fa-eye" aria-hidden="true"></i> Computer Vision</span>
-                        <span class="skill-tag"><i class="fas fa-chart-bar" aria-hidden="true"></i> Statistical Analysis</span>
-                        <span class="skill-tag"><i class="fas fa-cogs" aria-hidden="true"></i> Feature Engineering</span>
-                    </div>
-                    <div class="category-proficiency">
-                        <div class="proficiency-header">
-                            <span class="proficiency-label">Proficiency Level</span>
-                            <span class="proficiency-value">90%</span>
-                        </div>
-                        <div class="proficiency-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                            <div class="proficiency-fill" style="width: 90%"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Programming Languages -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-code" aria-hidden="true"></i>
-                        <h4>Programming Languages</h4>
-                    </div>
-                    <div class="skills-grid">
-                        <span class="skill-tag skill-advanced"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
-                        <span class="skill-tag skill-advanced"><i class="fas fa-database" aria-hidden="true"></i> SQL</span>
-                        <span class="skill-tag skill-intermediate"><i class="fab fa-r-project" aria-hidden="true"></i> R</span>
-                        <span class="skill-tag skill-intermediate"><i class="fab fa-js" aria-hidden="true"></i> JavaScript</span>
-                        <span class="skill-tag skill-intermediate"><i class="fab fa-html5" aria-hidden="true"></i> HTML/CSS</span>
-                    </div>
-                    <div class="category-proficiency">
-                        <div class="proficiency-header">
-                            <span class="proficiency-label">Proficiency Level</span>
-                            <span class="proficiency-value">95%</span>
-                        </div>
-                        <div class="proficiency-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                            <div class="proficiency-fill" style="width: 95%"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Frameworks & Libraries -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-layer-group" aria-hidden="true"></i>
-                        <h4>Frameworks & Libraries</h4>
-                    </div>
-                    <div class="skills-grid">
-                        <span class="skill-tag"><i class="fas fa-project-diagram" aria-hidden="true"></i> TensorFlow</span>
-                        <span class="skill-tag"><i class="fas fa-fire" aria-hidden="true"></i> PyTorch</span>
-                        <span class="skill-tag"><i class="fas fa-brain" aria-hidden="true"></i> Scikit-learn</span>
-                        <span class="skill-tag"><i class="fas fa-network-wired" aria-hidden="true"></i> Keras</span>
-                        <span class="skill-tag"><i class="fas fa-eye" aria-hidden="true"></i> OpenCV</span>
-                        <span class="skill-tag"><i class="fas fa-link" aria-hidden="true"></i> LangChain</span>
-                        <span class="skill-tag"><i class="fas fa-smile" aria-hidden="true"></i> Hugging Face</span>
-                        <span class="skill-tag"><i class="fas fa-table" aria-hidden="true"></i> Pandas</span>
-                        <span class="skill-tag"><i class="fas fa-calculator" aria-hidden="true"></i> NumPy</span>
-                    </div>
-                    <div class="category-proficiency">
-                        <div class="proficiency-header">
-                            <span class="proficiency-label">Proficiency Level</span>
-                            <span class="proficiency-value">88%</span>
-                        </div>
-                        <div class="proficiency-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
-                            <div class="proficiency-fill" style="width: 88%"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Data & BI Tools -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-chart-line" aria-hidden="true"></i>
-                        <h4>Data & BI Tools</h4>
-                    </div>
-                    <div class="skills-grid">
-                        <span class="skill-tag"><i class="fas fa-chart-pie" aria-hidden="true"></i> Power BI</span>
-                        <span class="skill-tag"><i class="fas fa-chart-area" aria-hidden="true"></i> Tableau</span>
-                        <span class="skill-tag"><i class="fas fa-chart-bar" aria-hidden="true"></i> Matplotlib</span>
-                        <span class="skill-tag"><i class="fas fa-water" aria-hidden="true"></i> Seaborn</span>
-                        <span class="skill-tag"><i class="fas fa-chart-line" aria-hidden="true"></i> Plotly</span>
-                        <span class="skill-tag"><i class="fas fa-file-excel" aria-hidden="true"></i> Excel (Advanced)</span>
-                        <span class="skill-tag"><i class="fas fa-calculator" aria-hidden="true"></i> SPSS</span>
-                    </div>
-                    <div class="category-proficiency">
-                        <div class="proficiency-header">
-                            <span class="proficiency-label">Proficiency Level</span>
-                            <span class="proficiency-value">85%</span>
-                        </div>
-                        <div class="proficiency-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                            <div class="proficiency-fill" style="width: 85%"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Databases -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-database" aria-hidden="true"></i>
-                        <h4>Databases</h4>
-                    </div>
-                    <div class="skills-grid">
-                        <span class="skill-tag"><i class="fas fa-database" aria-hidden="true"></i> MySQL</span>
-                        <span class="skill-tag"><i class="fas fa-elephant" aria-hidden="true"></i> PostgreSQL</span>
-                        <span class="skill-tag"><i class="fas fa-database" aria-hidden="true"></i> SQLite</span>
-                        <span class="skill-tag"><i class="fas fa-leaf" aria-hidden="true"></i> MongoDB</span>
-                    </div>
-                    <div class="category-proficiency">
-                        <div class="proficiency-header">
-                            <span class="proficiency-label">Proficiency Level</span>
-                            <span class="proficiency-value">88%</span>
-                        </div>
-                        <div class="proficiency-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
-                            <div class="proficiency-fill" style="width: 88%"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Cloud & DevOps -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-cloud" aria-hidden="true"></i>
-                        <h4>Cloud & Data Engineering</h4>
-                    </div>
-                    <div class="skills-grid">
-                        <span class="skill-tag"><i class="fab fa-microsoft" aria-hidden="true"></i> Microsoft Azure</span>
-                        <span class="skill-tag"><i class="fas fa-stream" aria-hidden="true"></i> Data Pipelines</span>
-                        <span class="skill-tag"><i class="fas fa-server" aria-hidden="true"></i> Big Data Processing</span>
-                        <span class="skill-tag"><i class="fas fa-cogs" aria-hidden="true"></i> DevOps</span>
-                        <span class="skill-tag"><i class="fab fa-github" aria-hidden="true"></i> GitHub</span>
-                    </div>
-                    <div class="category-proficiency">
-                        <div class="proficiency-header">
-                            <span class="proficiency-label">Proficiency Level</span>
-                            <span class="proficiency-value">75%</span>
-                        </div>
-                        <div class="proficiency-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <div class="proficiency-fill" style="width: 75%"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Professional Skills -->
-                <div class="skill-category">
-                    <div class="category-header">
-                        <i class="fas fa-users-cog" aria-hidden="true"></i>
-                        <h4>Professional Skills</h4>
-                    </div>
-                    <div class="skills-grid">
-                        <span class="skill-tag skill-soft"><i class="fas fa-digital-tachograph" aria-hidden="true"></i> Digital Transformation</span>
-                        <span class="skill-tag skill-soft"><i class="fas fa-users" aria-hidden="true"></i> Team Leadership</span>
-                        <span class="skill-tag skill-soft"><i class="fas fa-handshake" aria-hidden="true"></i> Stakeholder Management</span>
-                        <span class="skill-tag skill-soft"><i class="fas fa-lightbulb" aria-hidden="true"></i> Problem Solving</span>
-                        <span class="skill-tag skill-soft"><i class="fas fa-comments" aria-hidden="true"></i> Communication</span>
-                        <span class="skill-tag skill-soft"><i class="fas fa-tasks" aria-hidden="true"></i> Project Management</span>
-                    </div>
-                    <div class="category-proficiency">
-                        <div class="proficiency-header">
-                            <span class="proficiency-label">Proficiency Level</span>
-                            <span class="proficiency-value">92%</span>
-                        </div>
-                        <div class="proficiency-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
-                            <div class="proficiency-fill" style="width: 92%"></div>
-                        </div>
-                    </div>
-                </div>
+        <!-- Skills Categories Grid -->
+        <div class="skills-categories-grid">
+          <!-- AI & Machine Learning -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fas fa-brain" aria-hidden="true"></i>
+              <h4>AI & Machine Learning</h4>
             </div>
+            <div class="skills-grid">
+              <span class="skill-tag"
+                ><i class="fab fa-python" aria-hidden="true"></i> Python</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-project-diagram" aria-hidden="true"></i>
+                TensorFlow</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-fire" aria-hidden="true"></i> PyTorch</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-brain" aria-hidden="true"></i>
+                Scikit-learn</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-network-wired" aria-hidden="true"></i>
+                Keras</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-robot" aria-hidden="true"></i> Deep
+                Learning</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-comment-dots" aria-hidden="true"></i>
+                NLP</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-eye" aria-hidden="true"></i> Computer
+                Vision</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-chart-bar" aria-hidden="true"></i> Statistical
+                Analysis</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-cogs" aria-hidden="true"></i> Feature
+                Engineering</span
+              >
+            </div>
+            <div class="category-proficiency">
+              <div class="proficiency-header">
+                <span class="proficiency-label">Proficiency Level</span>
+                <span class="proficiency-value">90%</span>
+              </div>
+              <div
+                class="proficiency-bar"
+                role="progressbar"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="proficiency-fill" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Programming Languages -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fas fa-code" aria-hidden="true"></i>
+              <h4>Programming Languages</h4>
+            </div>
+            <div class="skills-grid">
+              <span class="skill-tag skill-advanced"
+                ><i class="fab fa-python" aria-hidden="true"></i> Python</span
+              >
+              <span class="skill-tag skill-advanced"
+                ><i class="fas fa-database" aria-hidden="true"></i> SQL</span
+              >
+              <span class="skill-tag skill-intermediate"
+                ><i class="fab fa-r-project" aria-hidden="true"></i> R</span
+              >
+              <span class="skill-tag skill-intermediate"
+                ><i class="fab fa-js" aria-hidden="true"></i> JavaScript</span
+              >
+              <span class="skill-tag skill-intermediate"
+                ><i class="fab fa-html5" aria-hidden="true"></i> HTML/CSS</span
+              >
+            </div>
+            <div class="category-proficiency">
+              <div class="proficiency-header">
+                <span class="proficiency-label">Proficiency Level</span>
+                <span class="proficiency-value">95%</span>
+              </div>
+              <div
+                class="proficiency-bar"
+                role="progressbar"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="proficiency-fill" style="width: 95%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks & Libraries -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fas fa-layer-group" aria-hidden="true"></i>
+              <h4>Frameworks & Libraries</h4>
+            </div>
+            <div class="skills-grid">
+              <span class="skill-tag"
+                ><i class="fas fa-project-diagram" aria-hidden="true"></i>
+                TensorFlow</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-fire" aria-hidden="true"></i> PyTorch</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-brain" aria-hidden="true"></i>
+                Scikit-learn</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-network-wired" aria-hidden="true"></i>
+                Keras</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-eye" aria-hidden="true"></i> OpenCV</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-link" aria-hidden="true"></i> LangChain</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-smile" aria-hidden="true"></i> Hugging
+                Face</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-table" aria-hidden="true"></i> Pandas</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-calculator" aria-hidden="true"></i>
+                NumPy</span
+              >
+            </div>
+            <div class="category-proficiency">
+              <div class="proficiency-header">
+                <span class="proficiency-label">Proficiency Level</span>
+                <span class="proficiency-value">88%</span>
+              </div>
+              <div
+                class="proficiency-bar"
+                role="progressbar"
+                aria-valuenow="88"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="proficiency-fill" style="width: 88%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data & BI Tools -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fas fa-chart-line" aria-hidden="true"></i>
+              <h4>Data & BI Tools</h4>
+            </div>
+            <div class="skills-grid">
+              <span class="skill-tag"
+                ><i class="fas fa-chart-pie" aria-hidden="true"></i> Power
+                BI</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-chart-area" aria-hidden="true"></i>
+                Tableau</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-chart-bar" aria-hidden="true"></i>
+                Matplotlib</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-water" aria-hidden="true"></i> Seaborn</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-chart-line" aria-hidden="true"></i>
+                Plotly</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-file-excel" aria-hidden="true"></i> Excel
+                (Advanced)</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-calculator" aria-hidden="true"></i> SPSS</span
+              >
+            </div>
+            <div class="category-proficiency">
+              <div class="proficiency-header">
+                <span class="proficiency-label">Proficiency Level</span>
+                <span class="proficiency-value">85%</span>
+              </div>
+              <div
+                class="proficiency-bar"
+                role="progressbar"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="proficiency-fill" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fas fa-database" aria-hidden="true"></i>
+              <h4>Databases</h4>
+            </div>
+            <div class="skills-grid">
+              <span class="skill-tag"
+                ><i class="fas fa-database" aria-hidden="true"></i> MySQL</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-elephant" aria-hidden="true"></i>
+                PostgreSQL</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-database" aria-hidden="true"></i> SQLite</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-leaf" aria-hidden="true"></i> MongoDB</span
+              >
+            </div>
+            <div class="category-proficiency">
+              <div class="proficiency-header">
+                <span class="proficiency-label">Proficiency Level</span>
+                <span class="proficiency-value">88%</span>
+              </div>
+              <div
+                class="proficiency-bar"
+                role="progressbar"
+                aria-valuenow="88"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="proficiency-fill" style="width: 88%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cloud & DevOps -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fas fa-cloud" aria-hidden="true"></i>
+              <h4>Cloud & Data Engineering</h4>
+            </div>
+            <div class="skills-grid">
+              <span class="skill-tag"
+                ><i class="fab fa-microsoft" aria-hidden="true"></i> Microsoft
+                Azure</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-stream" aria-hidden="true"></i> Data
+                Pipelines</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-server" aria-hidden="true"></i> Big Data
+                Processing</span
+              >
+              <span class="skill-tag"
+                ><i class="fas fa-cogs" aria-hidden="true"></i> DevOps</span
+              >
+              <span class="skill-tag"
+                ><i class="fab fa-github" aria-hidden="true"></i> GitHub</span
+              >
+            </div>
+            <div class="category-proficiency">
+              <div class="proficiency-header">
+                <span class="proficiency-label">Proficiency Level</span>
+                <span class="proficiency-value">75%</span>
+              </div>
+              <div
+                class="proficiency-bar"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="proficiency-fill" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Professional Skills -->
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fas fa-users-cog" aria-hidden="true"></i>
+              <h4>Professional Skills</h4>
+            </div>
+            <div class="skills-grid">
+              <span class="skill-tag skill-soft"
+                ><i class="fas fa-digital-tachograph" aria-hidden="true"></i>
+                Digital Transformation</span
+              >
+              <span class="skill-tag skill-soft"
+                ><i class="fas fa-users" aria-hidden="true"></i> Team
+                Leadership</span
+              >
+              <span class="skill-tag skill-soft"
+                ><i class="fas fa-handshake" aria-hidden="true"></i> Stakeholder
+                Management</span
+              >
+              <span class="skill-tag skill-soft"
+                ><i class="fas fa-lightbulb" aria-hidden="true"></i> Problem
+                Solving</span
+              >
+              <span class="skill-tag skill-soft"
+                ><i class="fas fa-comments" aria-hidden="true"></i>
+                Communication</span
+              >
+              <span class="skill-tag skill-soft"
+                ><i class="fas fa-tasks" aria-hidden="true"></i> Project
+                Management</span
+              >
+            </div>
+            <div class="category-proficiency">
+              <div class="proficiency-header">
+                <span class="proficiency-label">Proficiency Level</span>
+                <span class="proficiency-value">92%</span>
+              </div>
+              <div
+                class="proficiency-bar"
+                role="progressbar"
+                aria-valuenow="92"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="proficiency-fill" style="width: 92%"></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">Services I Offer</h2>
-            <div class="services-grid">
-                <article class="service-card">
-                    <div class="service-icon" aria-hidden="true">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <h3>Data Analysis & Reporting</h3>
-                    <p>Transform raw data into comprehensive reports with actionable insights using Python (Pandas, NumPy), SQL, and visualization libraries (Matplotlib, Seaborn, Plotly).</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Data Cleaning & Preparation</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Statistical Analysis</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Custom Reports</li>
-                    </ul>
-                </article>
-                
-                <article class="service-card">
-                    <div class="service-icon" aria-hidden="true">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <h3>Database Design & Management</h3>
-                    <p>Design and optimize database systems (MySQL, PostgreSQL) tailored to your business needs, ensuring data integrity and efficient query performance.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Database Architecture</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Query Optimization</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Data Migration</li>
-                    </ul>
-                </article>
-                
-                <article class="service-card">
-                    <div class="service-icon" aria-hidden="true">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Business Intelligence Dashboards</h3>
-                    <p>Create interactive dashboards and KPI visualizations using Power BI, Tableau, and Python to help stakeholders make data-driven decisions in real-time.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Interactive Dashboards</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> KPI Tracking</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Real-time Analytics</li>
-                    </ul>
-                </article>
-                
-                <article class="service-card">
-                    <div class="service-icon" aria-hidden="true">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <h3>ML-Powered System Development</h3>
-                    <p>Design and develop machine learning components for web applications and business systems, including requirement analysis, data pipeline design, and model integration.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check" aria-hidden="true"></i> System Integration</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> ML Pipeline Design</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> API Development</li>
-                    </ul>
-                </article>
-                
-                <article class="service-card">
-                    <div class="service-icon" aria-hidden="true">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Machine Learning Models</h3>
-                    <p>Build practical ML models for classification, prediction, and automation using Scikit-learn, PyTorch, and TensorFlow with focus on production-ready solutions.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Predictive Modeling</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Classification Models</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Model Deployment</li>
-                    </ul>
-                </article>
-                
-                <article class="service-card">
-                    <div class="service-icon" aria-hidden="true">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>AI Tools & Automation</h3>
-                    <p>Guide organizations in adopting AI tools, automating repetitive workflows, and integrating machine learning into existing business processes.</p>
-                    <ul class="service-features">
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Process Automation</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> AI Strategy</li>
-                        <li><i class="fas fa-check" aria-hidden="true"></i> Digital Transformation</li>
-                    </ul>
-                </article>
+      <div class="container">
+        <h2 class="section-title">Services I Offer</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <i class="fas fa-chart-bar"></i>
             </div>
+            <h3>Data Analysis & Reporting</h3>
+            <p>
+              Transform raw data into comprehensive reports with actionable
+              insights using Python (Pandas, NumPy), SQL, and visualization
+              libraries (Matplotlib, Seaborn, Plotly).
+            </p>
+            <ul class="service-features">
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Data Cleaning &
+                Preparation
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Statistical
+                Analysis
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Custom Reports
+              </li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Database Design & Management</h3>
+            <p>
+              Design and optimize database systems (MySQL, PostgreSQL) tailored
+              to your business needs, ensuring data integrity and efficient
+              query performance.
+            </p>
+            <ul class="service-features">
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Database
+                Architecture
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Query
+                Optimization
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Data Migration
+              </li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Business Intelligence Dashboards</h3>
+            <p>
+              Create interactive dashboards and KPI visualizations using Power
+              BI, Tableau, and Python to help stakeholders make data-driven
+              decisions in real-time.
+            </p>
+            <ul class="service-features">
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Interactive
+                Dashboards
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> KPI Tracking
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Real-time
+                Analytics
+              </li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <i class="fas fa-project-diagram"></i>
+            </div>
+            <h3>ML-Powered System Development</h3>
+            <p>
+              Design and develop machine learning components for web
+              applications and business systems, including requirement analysis,
+              data pipeline design, and model integration.
+            </p>
+            <ul class="service-features">
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> System
+                Integration
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> ML Pipeline
+                Design
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> API Development
+              </li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Machine Learning Models</h3>
+            <p>
+              Build practical ML models for classification, prediction, and
+              automation using Scikit-learn, PyTorch, and TensorFlow with focus
+              on production-ready solutions.
+            </p>
+            <ul class="service-features">
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Predictive
+                Modeling
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Classification
+                Models
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Model Deployment
+              </li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>AI Tools & Automation</h3>
+            <p>
+              Guide organizations in adopting AI tools, automating repetitive
+              workflows, and integrating machine learning into existing business
+              processes.
+            </p>
+            <ul class="service-features">
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Process
+                Automation
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> AI Strategy
+              </li>
+              <li>
+                <i class="fas fa-check" aria-hidden="true"></i> Digital
+                Transformation
+              </li>
+            </ul>
+          </article>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                
-                <!-- Project 1 - FoodVision -->
-                <article class="project-card">
-                    <div class="project-image">
-                        <img 
-                            src="images/projects/foodvision.jpg" 
-                            alt="FoodVision Big - Food Classification AI Project"
-                            loading="lazy"
-                            data-fallback="https://via.placeholder.com/400x250/667eea/ffffff?text=FoodVision"
-                            width="400"
-                            height="250"
-                        >
-                        <div class="project-overlay">
-                            <a href="https://github.com/abdrhmnr/deep-learning-by-pytorch" 
-                               target="_blank" 
-                               rel="noopener noreferrer" 
-                               class="project-link" 
-                               aria-label="View FoodVision project on GitHub">
-                                <i class="fab fa-github" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://huggingface.co/spaces/abdrhmnr/food_vision_big" 
-                               target="_blank" 
-                               rel="noopener noreferrer" 
-                               class="project-link" 
-                               aria-label="View FoodVision live demo">
-                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>FoodVision Big</h3>
-                        <p>End-to-end computer vision system using EfficientNetB2 and PyTorch to classify 101 food categories. Deployed on HuggingFace Spaces with interactive Gradio interface.</p>
-                        <div class="project-tags">
-                            <span><i class="fas fa-fire" aria-hidden="true"></i> PyTorch</span>
-                            <span><i class="fas fa-brain" aria-hidden="true"></i> Deep Learning</span>
-                            <span><i class="fas fa-desktop" aria-hidden="true"></i> Gradio</span>
-                            <span><i class="fas fa-exchange-alt" aria-hidden="true"></i> Transfer Learning</span>
-                        </div>
-                        <div class="project-stats">
-                            <span><i class="fas fa-check-circle" aria-hidden="true"></i> Production Ready</span>
-                            <span><i class="fas fa-rocket" aria-hidden="true"></i> Deployed</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 2 - ERP + AI Integration -->
-                <article class="project-card">
-                    <div class="project-image project-gradient-blue">
-                        <div class="project-icon-container">
-                            <i class="fas fa-network-wired" aria-hidden="true"></i>
-                            <div class="project-impact">
-                                <div class="impact-number">77%</div>
-                                <div class="impact-text">Time Reduction</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>ERP System with ML Integration</h3>
-                        <p>Designed and developed machine learning components for healthcare business systems (Hanzo Med & Best Care Egypt), reducing invoice processing time by 77%. Built ML classification models and integrated them into production web applications.</p>
-                        <div class="project-tags">
-                            <span><i class="fas fa-brain" aria-hidden="true"></i> Machine Learning</span>
-                            <span><i class="fas fa-network-wired" aria-hidden="true"></i> ERP Integration</span>
-                            <span><i class="fas fa-robot" aria-hidden="true"></i> Scikit-learn</span>
-                            <span><i class="fas fa-heartbeat" aria-hidden="true"></i> Healthcare</span>
-                            <span><i class="fas fa-chart-pie" aria-hidden="true"></i> Power BI</span>
-                        </div>
-                        <div class="project-stats">
-                            <span><i class="fas fa-bolt" aria-hidden="true"></i> 77% Faster Processing</span>
-                            <span><i class="fas fa-check-circle" aria-hidden="true"></i> Production Deployed</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 3 - Government Complaints System -->
-                <article class="project-card">
-                    <div class="project-image">
-                        <img 
-                            src="images/projects/cabinet-complaints.jpg" 
-                            alt="Egyptian Cabinet Complaints Management System"
-                            loading="lazy"
-                            data-fallback="https://via.placeholder.com/400x250/764ba2/ffffff?text=Government+System"
-                            width="400"
-                            height="250"
-                        >
-                        <div class="project-overlay">
-                            <span class="confidential-badge">
-                                <i class="fas fa-shield-alt" aria-hidden="true"></i> Confidential Project
-                            </span>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Government Complaints Management System</h3>
-                        <p>Led team of 8 professionals managing Egypt's national complaints system for Egyptian Cabinet. Built interactive Power BI dashboards to visualize complaint trends and KPIs, improving system efficiency by 40% and resolving 8,500+ citizen cases.</p>
-                        <div class="project-tags">
-                            <span><i class="fas fa-chart-pie" aria-hidden="true"></i> Power BI</span>
-                            <span><i class="fab fa-python" aria-hidden="true"></i> Python</span>
-                            <span><i class="fas fa-users" aria-hidden="true"></i> Team Leadership</span>
-                            <span><i class="fas fa-chart-bar" aria-hidden="true"></i> Data Analysis</span>
-                            <span><i class="fas fa-landmark" aria-hidden="true"></i> Government</span>
-                        </div>
-                        <div class="project-stats">
-                            <span><i class="fas fa-users" aria-hidden="true"></i> 8,500+ Cases Resolved</span>
-                            <span><i class="fas fa-chart-line" aria-hidden="true"></i> 40% Efficiency Gain</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 4 - AI Tender Evaluation -->
-                <article class="project-card">
-                    <div class="project-image project-gradient-gold">
-                        <div class="project-icon-container">
-                            <i class="fas fa-gavel" aria-hidden="true"></i>
-                            <div class="project-badge-overlay">
-                                <div class="badge-text">World Bank</div>
-                                <div class="badge-subtext">National Project</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>AI Procurement Evaluation System</h3>
-                        <p>Served as Technical Committee Member evaluating AI procurement proposals for Egyptian Authority (UPA) and World Bank. Authored comprehensive evaluation reports ensuring compliance with international standards for national digital transformation initiatives.</p>
-                        <div class="project-tags">
-                            <span><i class="fas fa-clipboard-check" aria-hidden="true"></i> Technical Evaluation</span>
-                            <span><i class="fas fa-brain" aria-hidden="true"></i> AI Strategy</span>
-                            <span><i class="fas fa-globe" aria-hidden="true"></i> World Bank</span>
-                            <span><i class="fas fa-shield-alt" aria-hidden="true"></i> Compliance</span>
-                        </div>
-                        <div class="project-stats">
-                            <span><i class="fas fa-building" aria-hidden="true"></i> Government Project</span>
-                            <span><i class="fas fa-globe" aria-hidden="true"></i> International Standards</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 5 - RAG Chatbot -->
-                <article class="project-card">
-                    <div class="project-image">
-                        <img 
-                            src="images/projects/rag-chatbot.jpg" 
-                            alt="RAG-Based AI Chatbot Project"
-                            loading="lazy"
-                            data-fallback="https://via.placeholder.com/400x250/4facfe/ffffff?text=RAG+Chatbot"
-                            width="400"
-                            height="250"
-                        >
-                        <div class="project-overlay">
-                            <a href="https://github.com/abdrhmnr" 
-                               target="_blank" 
-                               rel="noopener noreferrer" 
-                               class="project-link" 
-                               aria-label="View RAG Chatbot project on GitHub">
-                                <i class="fab fa-github" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>RAG-Based AI Chatbot</h3>
-                        <p>Enterprise chatbot using LangChain and Hugging Face with vector-based document retrieval for intelligent responses and context-aware conversations.</p>
-                        <div class="project-tags">
-                            <span><i class="fas fa-link" aria-hidden="true"></i> LangChain</span>
-                            <span><i class="fas fa-comment-dots" aria-hidden="true"></i> NLP</span>
-                            <span><i class="fas fa-database" aria-hidden="true"></i> RAG</span>
-                            <span><i class="fas fa-smile" aria-hidden="true"></i> Hugging Face</span>
-                        </div>
-                        <div class="project-stats">
-                            <span><i class="fas fa-code" aria-hidden="true"></i> In Development</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 6 - Sign Language -->
-                <article class="project-card">
-                    <div class="project-image">
-                        <img 
-                            src="images/projects/sign-language.jpg" 
-                            alt="Sign Language Recognition System"
-                            loading="lazy"
-                            data-fallback="https://via.placeholder.com/400x250/10b981/ffffff?text=Sign+Language"
-                            width="400"
-                            height="250"
-                        >
-                        <div class="project-overlay">
-                            <a href="https://github.com/abdrhmnr" 
-                               target="_blank" 
-                               rel="noopener noreferrer" 
-                               class="project-link" 
-                               aria-label="View Sign Language project on GitHub">
-                                <i class="fab fa-github" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Sign Language Recognition</h3>
-                        <p>CNN-based real-time recognition system achieving 80% accuracy using TensorFlow and OpenCV for computer vision processing.</p>
-                        <div class="project-tags">
-                            <span><i class="fas fa-project-diagram" aria-hidden="true"></i> TensorFlow</span>
-                            <span><i class="fas fa-eye" aria-hidden="true"></i> OpenCV</span>
-                            <span><i class="fas fa-network-wired" aria-hidden="true"></i> CNN</span>
-                            <span><i class="fas fa-clock" aria-hidden="true"></i> Real-time</span>
-                        </div>
-                        <div class="project-stats">
-                            <span><i class="fas fa-percentage" aria-hidden="true"></i> 80% Accuracy</span>
-                        </div>
-                    </div>
-                </article>
-
-            </div>
-            
-            <div class="projects-cta">
-                <a href="https://github.com/abdrhmnr" 
-                   target="_blank" 
-                   rel="noopener noreferrer" 
-                   class="btn btn-primary">
-                    <i class="fab fa-github" aria-hidden="true"></i> View All Projects on GitHub
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 - FoodVision -->
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/projects/foodvision.jpg"
+                alt="FoodVision Big - Food Classification AI Project"
+                loading="lazy"
+                data-fallback="https://via.placeholder.com/400x250/667eea/ffffff?text=FoodVision"
+                width="400"
+                height="250"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/abdrhmnr/deep-learning-by-pytorch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="View FoodVision project on GitHub"
+                >
+                  <i class="fab fa-github" aria-hidden="true"></i>
                 </a>
+                <a
+                  href="https://huggingface.co/spaces/abdrhmnr/food_vision_big"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="View FoodVision live demo"
+                >
+                  <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
+            <div class="project-content">
+              <h3>FoodVision Big</h3>
+              <p>
+                End-to-end computer vision system using EfficientNetB2 and
+                PyTorch to classify 101 food categories. Deployed on HuggingFace
+                Spaces with interactive Gradio interface.
+              </p>
+              <div class="project-tags">
+                <span
+                  ><i class="fas fa-fire" aria-hidden="true"></i> PyTorch</span
+                >
+                <span
+                  ><i class="fas fa-brain" aria-hidden="true"></i> Deep
+                  Learning</span
+                >
+                <span
+                  ><i class="fas fa-desktop" aria-hidden="true"></i>
+                  Gradio</span
+                >
+                <span
+                  ><i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                  Transfer Learning</span
+                >
+              </div>
+              <div class="project-stats">
+                <span
+                  ><i class="fas fa-check-circle" aria-hidden="true"></i>
+                  Production Ready</span
+                >
+                <span
+                  ><i class="fas fa-rocket" aria-hidden="true"></i>
+                  Deployed</span
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 - ERP + AI Integration -->
+          <article class="project-card">
+            <div class="project-image project-gradient-blue">
+              <div class="project-icon-container">
+                <i class="fas fa-network-wired" aria-hidden="true"></i>
+                <div class="project-impact">
+                  <div class="impact-number">77%</div>
+                  <div class="impact-text">Time Reduction</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>ERP System with ML Integration</h3>
+              <p>
+                Designed and developed machine learning components for
+                healthcare business systems (Hanzo Med & Best Care Egypt),
+                reducing invoice processing time by 77%. Built ML classification
+                models and integrated them into production web applications.
+              </p>
+              <div class="project-tags">
+                <span
+                  ><i class="fas fa-brain" aria-hidden="true"></i> Machine
+                  Learning</span
+                >
+                <span
+                  ><i class="fas fa-network-wired" aria-hidden="true"></i> ERP
+                  Integration</span
+                >
+                <span
+                  ><i class="fas fa-robot" aria-hidden="true"></i>
+                  Scikit-learn</span
+                >
+                <span
+                  ><i class="fas fa-heartbeat" aria-hidden="true"></i>
+                  Healthcare</span
+                >
+                <span
+                  ><i class="fas fa-chart-pie" aria-hidden="true"></i> Power
+                  BI</span
+                >
+              </div>
+              <div class="project-stats">
+                <span
+                  ><i class="fas fa-bolt" aria-hidden="true"></i> 77% Faster
+                  Processing</span
+                >
+                <span
+                  ><i class="fas fa-check-circle" aria-hidden="true"></i>
+                  Production Deployed</span
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 - Government Complaints System -->
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/projects/cabinet-complaints.jpg"
+                alt="Egyptian Cabinet Complaints Management System"
+                loading="lazy"
+                data-fallback="https://via.placeholder.com/400x250/764ba2/ffffff?text=Government+System"
+                width="400"
+                height="250"
+              />
+              <div class="project-overlay">
+                <span class="confidential-badge">
+                  <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                  Confidential Project
+                </span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Government Complaints Management System</h3>
+              <p>
+                Led team of 8 professionals managing Egypt's national complaints
+                system for Egyptian Cabinet. Built interactive Power BI
+                dashboards to visualize complaint trends and KPIs, improving
+                system efficiency by 40% and resolving 8,500+ citizen cases.
+              </p>
+              <div class="project-tags">
+                <span
+                  ><i class="fas fa-chart-pie" aria-hidden="true"></i> Power
+                  BI</span
+                >
+                <span
+                  ><i class="fab fa-python" aria-hidden="true"></i> Python</span
+                >
+                <span
+                  ><i class="fas fa-users" aria-hidden="true"></i> Team
+                  Leadership</span
+                >
+                <span
+                  ><i class="fas fa-chart-bar" aria-hidden="true"></i> Data
+                  Analysis</span
+                >
+                <span
+                  ><i class="fas fa-landmark" aria-hidden="true"></i>
+                  Government</span
+                >
+              </div>
+              <div class="project-stats">
+                <span
+                  ><i class="fas fa-users" aria-hidden="true"></i> 8,500+ Cases
+                  Resolved</span
+                >
+                <span
+                  ><i class="fas fa-chart-line" aria-hidden="true"></i> 40%
+                  Efficiency Gain</span
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 - AI Tender Evaluation -->
+          <article class="project-card">
+            <div class="project-image project-gradient-gold">
+              <div class="project-icon-container">
+                <i class="fas fa-gavel" aria-hidden="true"></i>
+                <div class="project-badge-overlay">
+                  <div class="badge-text">World Bank</div>
+                  <div class="badge-subtext">National Project</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>AI Procurement Evaluation System</h3>
+              <p>
+                Served as Technical Committee Member evaluating AI procurement
+                proposals for Egyptian Authority (UPA) and World Bank. Authored
+                comprehensive evaluation reports ensuring compliance with
+                international standards for national digital transformation
+                initiatives.
+              </p>
+              <div class="project-tags">
+                <span
+                  ><i class="fas fa-clipboard-check" aria-hidden="true"></i>
+                  Technical Evaluation</span
+                >
+                <span
+                  ><i class="fas fa-brain" aria-hidden="true"></i> AI
+                  Strategy</span
+                >
+                <span
+                  ><i class="fas fa-globe" aria-hidden="true"></i> World
+                  Bank</span
+                >
+                <span
+                  ><i class="fas fa-shield-alt" aria-hidden="true"></i>
+                  Compliance</span
+                >
+              </div>
+              <div class="project-stats">
+                <span
+                  ><i class="fas fa-building" aria-hidden="true"></i> Government
+                  Project</span
+                >
+                <span
+                  ><i class="fas fa-globe" aria-hidden="true"></i> International
+                  Standards</span
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 - RAG Chatbot -->
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/projects/rag-chatbot.jpg"
+                alt="RAG-Based AI Chatbot Project"
+                loading="lazy"
+                data-fallback="https://via.placeholder.com/400x250/4facfe/ffffff?text=RAG+Chatbot"
+                width="400"
+                height="250"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/abdrhmnr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="View RAG Chatbot project on GitHub"
+                >
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>RAG-Based AI Chatbot</h3>
+              <p>
+                Enterprise chatbot using LangChain and Hugging Face with
+                vector-based document retrieval for intelligent responses and
+                context-aware conversations.
+              </p>
+              <div class="project-tags">
+                <span
+                  ><i class="fas fa-link" aria-hidden="true"></i>
+                  LangChain</span
+                >
+                <span
+                  ><i class="fas fa-comment-dots" aria-hidden="true"></i>
+                  NLP</span
+                >
+                <span
+                  ><i class="fas fa-database" aria-hidden="true"></i> RAG</span
+                >
+                <span
+                  ><i class="fas fa-smile" aria-hidden="true"></i> Hugging
+                  Face</span
+                >
+              </div>
+              <div class="project-stats">
+                <span
+                  ><i class="fas fa-code" aria-hidden="true"></i> In
+                  Development</span
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 - Sign Language -->
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/projects/sign-language.jpg"
+                alt="Sign Language Recognition System"
+                loading="lazy"
+                data-fallback="https://via.placeholder.com/400x250/10b981/ffffff?text=Sign+Language"
+                width="400"
+                height="250"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://github.com/abdrhmnr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                  aria-label="View Sign Language project on GitHub"
+                >
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Sign Language Recognition</h3>
+              <p>
+                CNN-based real-time recognition system achieving 80% accuracy
+                using TensorFlow and OpenCV for computer vision processing.
+              </p>
+              <div class="project-tags">
+                <span
+                  ><i class="fas fa-project-diagram" aria-hidden="true"></i>
+                  TensorFlow</span
+                >
+                <span
+                  ><i class="fas fa-eye" aria-hidden="true"></i> OpenCV</span
+                >
+                <span
+                  ><i class="fas fa-network-wired" aria-hidden="true"></i>
+                  CNN</span
+                >
+                <span
+                  ><i class="fas fa-clock" aria-hidden="true"></i>
+                  Real-time</span
+                >
+              </div>
+              <div class="project-stats">
+                <span
+                  ><i class="fas fa-percentage" aria-hidden="true"></i> 80%
+                  Accuracy</span
+                >
+              </div>
+            </div>
+          </article>
         </div>
+
+        <div class="projects-cta">
+          <a
+            href="https://github.com/abdrhmnr"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            <i class="fab fa-github" aria-hidden="true"></i> View All Projects
+            on GitHub
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- Clients Section -->
     <section id="clients" class="clients">
-        <div class="container">
-            <h2 class="section-title">Organizations I've Worked With</h2>
-            <p class="clients-subtitle">
-                Trusted by leading organizations to deliver data-driven solutions
-            </p>
-            
-            <!-- Clients Slider -->
-            <div class="clients-slider-wrapper">
-                <button class="slider-btn prev-btn" aria-label="Previous client">
-                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
-                </button>
-                
-                <div class="clients-slider" role="region" aria-label="Client organizations carousel">
-                    <!-- Client 1 - Outlier -->
-                    <a href="https://outlier.ai/" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="client-slide">
-                        <div class="client-logo-container">
-                            <img 
-                                src="images/clients/outlier.png" 
-                                alt="Outlier AI Company Logo"
-                                loading="lazy"
-                                data-fallback="https://via.placeholder.com/150x150/667eea/ffffff?text=Outlier"
-                                width="150"
-                                height="150"
-                            >
-                        </div>
-                        <h4>Outlier</h4>
-                        <p>AI Model Training</p>
-                    </a>
+      <div class="container">
+        <h2 class="section-title">Organizations I've Worked With</h2>
+        <p class="clients-subtitle">
+          Trusted by leading organizations to deliver data-driven solutions
+        </p>
 
-                    <!-- Client 2 - UPA -->
-                    <a href="https://upa.gov.eg/ar/" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="client-slide">
-                        <div class="client-logo-container">
-                            <img 
-                                src="images/clients/upa.png" 
-                                alt="Egyptian Authority for Unified Procurement Logo"
-                                loading="lazy"
-                                data-fallback="https://via.placeholder.com/150x150/10b981/ffffff?text=UPA"
-                                width="150"
-                                height="150"
-                            >
-                        </div>
-                        <h4>Egyptian Authority for Unified Procurement</h4>
-                        <p>Data Analytics & Tech Support</p>
-                    </a>
+        <!-- Clients Slider -->
+        <div class="clients-slider-wrapper">
+          <button class="slider-btn prev-btn" aria-label="Previous client">
+            <i class="fas fa-chevron-left" aria-hidden="true"></i>
+          </button>
 
-                    <!-- Client 3 - Egyptian Cabinet -->
-                    <a href="https://www.shakwa.eg/GCP/Stakeholder/Form.aspx" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="client-slide">
-                        <div class="client-logo-container">
-                            <img 
-                                src="images/clients/cabinet.png" 
-                                alt="Egyptian Cabinet Logo"
-                                loading="lazy"
-                                data-fallback="https://via.placeholder.com/150x150/ef4444/ffffff?text=Cabinet"
-                                width="150"
-                                height="150"
-                            >
-                        </div>
-                        <h4>Egyptian Cabinet - Complaints System</h4>
-                        <p>Team Lead & Data Analysis</p>
-                    </a>
+          <div
+            class="clients-slider"
+            role="region"
+            aria-label="Client organizations carousel"
+          >
+            <!-- Client 1 - Outlier -->
+            <a
+              href="https://outlier.ai/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="client-slide"
+            >
+              <div class="client-logo-container">
+                <img
+                  src="images/clients/outlier.png"
+                  alt="Outlier AI Company Logo"
+                  loading="lazy"
+                  data-fallback="https://via.placeholder.com/150x150/667eea/ffffff?text=Outlier"
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <h4>Outlier</h4>
+              <p>AI Model Training</p>
+            </a>
 
-                    <!-- Client 4 - Hanzo Med -->
-                    <a href="https://hanzomed.com/" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="client-slide">
-                        <div class="client-logo-container">
-                            <img 
-                                src="images/clients/hanzomed.png" 
-                                alt="Hanzo Med Company Logo"
-                                loading="lazy"
-                                data-fallback="https://via.placeholder.com/150x150/3b82f6/ffffff?text=HanzoMed"
-                                width="150"
-                                height="150"
-                            >
-                        </div>
-                        <h4>Hanzo Med</h4>
-                        <p>AI Consultant</p>
-                    </a>
+            <!-- Client 2 - UPA -->
+            <a
+              href="https://upa.gov.eg/ar/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="client-slide"
+            >
+              <div class="client-logo-container">
+                <img
+                  src="images/clients/upa.png"
+                  alt="Egyptian Authority for Unified Procurement Logo"
+                  loading="lazy"
+                  data-fallback="https://via.placeholder.com/150x150/10b981/ffffff?text=UPA"
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <h4>Egyptian Authority for Unified Procurement</h4>
+              <p>Data Analytics & Tech Support</p>
+            </a>
 
-                    <!-- Client 5 - Best Care Egypt -->
-                    <a href="https://www.facebook.com/bestcareeg/" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="client-slide">
-                        <div class="client-logo-container">
-                            <img 
-                                src="images/clients/bestcare.png" 
-                                alt="Best Care Egypt Logo"
-                                loading="lazy"
-                                data-fallback="https://via.placeholder.com/150x150/8b5cf6/ffffff?text=BestCare"
-                                width="150"
-                                height="150"
-                            >
-                        </div>
-                        <h4>Best Care Egypt</h4>
-                        <p>Digital Transformation</p>
-                    </a>
+            <!-- Client 3 - Egyptian Cabinet -->
+            <a
+              href="https://www.shakwa.eg/GCP/Stakeholder/Form.aspx"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="client-slide"
+            >
+              <div class="client-logo-container">
+                <img
+                  src="images/clients/cabinet.png"
+                  alt="Egyptian Cabinet Logo"
+                  loading="lazy"
+                  data-fallback="https://via.placeholder.com/150x150/ef4444/ffffff?text=Cabinet"
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <h4>Egyptian Cabinet - Complaints System</h4>
+              <p>Team Lead & Data Analysis</p>
+            </a>
 
-                    <!-- Client 6 - EDES-IT -->
-                    <a href="https://edes-it.com" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="client-slide">
-                        <div class="client-logo-container">
-                            <img 
-                                src="images/clients/edesit.png" 
-                                alt="EDES-IT Company Logo"
-                                loading="lazy"
-                                data-fallback="https://via.placeholder.com/150x150/f59e0b/ffffff?text=EDES-IT"
-                                width="150"
-                                height="150"
-                            >
-                        </div>
-                        <h4>EDES-IT</h4>
-                        <p>Co-Founder & CEO</p>
-                    </a>
-                </div>
-                
-                <button class="slider-btn next-btn" aria-label="Next client">
-                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
-                </button>
-            </div>
+            <!-- Client 4 - Hanzo Med -->
+            <a
+              href="https://hanzomed.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="client-slide"
+            >
+              <div class="client-logo-container">
+                <img
+                  src="images/clients/hanzomed.png"
+                  alt="Hanzo Med Company Logo"
+                  loading="lazy"
+                  data-fallback="https://via.placeholder.com/150x150/3b82f6/ffffff?text=HanzoMed"
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <h4>Hanzo Med</h4>
+              <p>AI Consultant</p>
+            </a>
 
-            <!-- Slider Dots -->
-            <div class="slider-dots" role="tablist" aria-label="Client slides navigation"></div>
+            <!-- Client 5 - Best Care Egypt -->
+            <a
+              href="https://www.facebook.com/bestcareeg/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="client-slide"
+            >
+              <div class="client-logo-container">
+                <img
+                  src="images/clients/bestcare.png"
+                  alt="Best Care Egypt Logo"
+                  loading="lazy"
+                  data-fallback="https://via.placeholder.com/150x150/8b5cf6/ffffff?text=BestCare"
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <h4>Best Care Egypt</h4>
+              <p>Digital Transformation</p>
+            </a>
 
-            <!-- Stats Summary -->
-            <div class="clients-stats">
-                <div class="client-stat">
-                    <div class="stat-icon" aria-hidden="true"><i class="fas fa-building"></i></div>
-                    <h3 data-target="6" aria-label="6 plus organizations">6+</h3>
-                    <p>Organizations</p>
-                </div>
-                <div class="client-stat">
-                    <div class="stat-icon" aria-hidden="true"><i class="fas fa-calendar-alt"></i></div>
-                    <h3 data-target="4" aria-label="4 plus years experience">4+</h3>
-                    <p>Years Experience</p>
-                </div>
-                <div class="client-stat">
-                    <div class="stat-icon" aria-hidden="true"><i class="fas fa-users"></i></div>
-                    <h3 data-target="9000" aria-label="9,000 plus users served">9,000+</h3>
-                    <p>Users Served</p>
-                </div>
-                <div class="client-stat">
-                    <div class="stat-icon" aria-hidden="true"><i class="fas fa-chart-line"></i></div>
-                    <h3 data-target="77" aria-label="77 percent efficiency gain">77%</h3>
-                    <p>Efficiency Gain</p>
-                </div>
-            </div>
+            <!-- Client 6 - EDES-IT -->
+            <a
+              href="https://edes-it.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="client-slide"
+            >
+              <div class="client-logo-container">
+                <img
+                  src="images/clients/edesit.png"
+                  alt="EDES-IT Company Logo"
+                  loading="lazy"
+                  data-fallback="https://via.placeholder.com/150x150/f59e0b/ffffff?text=EDES-IT"
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <h4>EDES-IT</h4>
+              <p>Co-Founder & CEO</p>
+            </a>
+          </div>
+
+          <button class="slider-btn next-btn" aria-label="Next client">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </button>
         </div>
+
+        <!-- Slider Dots -->
+        <div
+          class="slider-dots"
+          role="tablist"
+          aria-label="Client slides navigation"
+        ></div>
+
+        <!-- Stats Summary -->
+        <div class="clients-stats">
+          <div class="client-stat">
+            <div class="stat-icon" aria-hidden="true">
+              <i class="fas fa-building"></i>
+            </div>
+            <h3 data-target="6" aria-label="6 plus organizations">6+</h3>
+            <p>Organizations</p>
+          </div>
+          <div class="client-stat">
+            <div class="stat-icon" aria-hidden="true">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3 data-target="4" aria-label="4 plus years experience">4+</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="client-stat">
+            <div class="stat-icon" aria-hidden="true">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 data-target="9000" aria-label="9,000 plus users served">
+              9,000+
+            </h3>
+            <p>Users Served</p>
+          </div>
+          <div class="client-stat">
+            <div class="stat-icon" aria-hidden="true">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 data-target="77" aria-label="77 percent efficiency gain">
+              77%
+            </h3>
+            <p>Efficiency Gain</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Recommendations Section -->
     <section id="recommendations" class="recommendations">
-        <div class="container">
-            <h2 class="section-title">What People Say</h2>
-            <p class="recommendations-subtitle">
-                Recommendations from colleagues and managers I've worked with
-            </p>
-            
-            <div class="recommendations-grid">
-                <!-- Recommendation 1 - Mahmoud Salama -->
-                <article class="recommendation-card">
-                    <div class="recommendation-header">
-                        <div class="recommender-info">
-                            <div class="recommender-avatar">
-                                <img 
-                                    src="images/recommenders/mahmoud-salama.jpg" 
-                                    alt="Mahmoud Salama - Director at UPA"
-                                    loading="lazy"
-                                    data-fallback="https://via.placeholder.com/60x60/667eea/ffffff?text=MS"
-                                    width="60"
-                                    height="60"
-                                >
-                                <i class="fas fa-user-tie" aria-hidden="true"></i>
-                            </div>
-                            <div class="recommender-details">
-                                <h4>Mahmoud Salama</h4>
-                                <p class="recommender-title">Director of General Administration of Systems, Applications & Technical Support</p>
-                                <p class="recommender-company">Egyptian Authority for Unified Procurement (UPA)</p>
-                                <p class="relationship">
-                                    <i class="fas fa-user-check" aria-hidden="true"></i> Mahmoud managed Abdelrahman directly
-                                </p>
-                                <div class="rating" role="img" aria-label="5 out of 5 stars">
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="https://www.linkedin.com/in/mahmoud-salama-30249b34/" 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
-                           class="linkedin-badge"
-                           aria-label="View Mahmoud Salama's LinkedIn profile">
-                            <i class="fab fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="recommendation-content">
-                        <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
-                        <p>
-                            I've had the pleasure of working with Abdelrahman, and he's genuinely one of the most reliable and supportive colleagues I've worked with. He understands challenges quickly, communicates clearly, and always steps in to help the team when needed.
-                        </p>
-                        <p>
-                            Abdelrahman brings positive energy to every task and makes collaboration easy and enjoyable. His professionalism, problem-solving skills, and friendly attitude make him a real asset to any team.
-                        </p>
-                        <p class="recommendation-highlight">
-                            <i class="fas fa-award" aria-hidden="true"></i>
-                            <strong>"I highly recommend Abdelrahman — anyone would be lucky to work with him."</strong>
-                        </p>
-                    </div>
-                    <div class="recommendation-footer">
-                        <span class="recommendation-date">
-                            <i class="far fa-calendar-alt" aria-hidden="true"></i> November 30, 2024
-                        </span>
-                        <a href="https://www.linkedin.com/in/mahmoud-salama-30249b34/" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="view-profile-btn">
-                            View Profile <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </article>
+      <div class="container">
+        <h2 class="section-title">What People Say</h2>
+        <p class="recommendations-subtitle">
+          Recommendations from colleagues and managers I've worked with
+        </p>
 
-                <!-- Recommendation 2 - Amr Marey -->
-                <article class="recommendation-card">
-                    <div class="recommendation-header">
-                        <div class="recommender-info">
-                            <div class="recommender-avatar">
-                                <img 
-                                    src="images/recommenders/amr-marey.jpg" 
-                                    alt="Amr Marey - Software Engineer"
-                                    loading="lazy"
-                                    data-fallback="https://via.placeholder.com/60x60/667eea/ffffff?text=AM"
-                                    width="60"
-                                    height="60"
-                                >
-                                <i class="fas fa-user-tie" aria-hidden="true"></i>
-                            </div>
-                            <div class="recommender-details">
-                                <h4>Amr Marey</h4>
-                                <p class="recommender-title">Software Engineer</p>
-                                <p class="recommender-company">Egyptian Authority for Unified Procurement (UPA)</p>
-                                <p class="relationship">
-                                    <i class="fas fa-users" aria-hidden="true"></i> Amr worked with Abdelrahman on the same team
-                                </p>
-                                <div class="rating" role="img" aria-label="5 out of 5 stars">
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="https://www.linkedin.com/in/amr-marey/" 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
-                           class="linkedin-badge"
-                           aria-label="View Amr Marey's LinkedIn profile">
-                            <i class="fab fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="recommendation-content">
-                        <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
-                        <p>
-                            Abdelrahman is one of the best people I worked with. One of those who are dedicated to learn, help, and support others.
-                        </p>
-                        <p class="recommendation-highlight">
-                            <i class="fas fa-award" aria-hidden="true"></i>
-                            <strong>"He proved his skills in data science and data analysis."</strong>
-                        </p>
-                    </div>
-                    <div class="recommendation-footer">
-                        <span class="recommendation-date">
-                            <i class="far fa-calendar-alt" aria-hidden="true"></i> November 30, 2024
-                        </span>
-                        <a href="https://www.linkedin.com/in/amr-marey/" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="view-profile-btn">
-                            View Profile <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </article>
-            </div>
-
-            <!-- Statistics -->
-            <div class="recommendations-stats">
-                <div class="rec-stat">
-                    <i class="fas fa-award" aria-hidden="true"></i>
-                    <h3 data-target="2" aria-label="2 plus LinkedIn recommendations">2+</h3>
-                    <p>LinkedIn Recommendations</p>
+        <div class="recommendations-grid">
+          <!-- Recommendation 1 - Mahmoud Salama -->
+          <article class="recommendation-card">
+            <div class="recommendation-header">
+              <div class="recommender-info">
+                <div class="recommender-avatar">
+                  <img
+                    src="images/recommenders/mahmoud-salama.jpg"
+                    alt="Mahmoud Salama - Director at UPA"
+                    loading="lazy"
+                    data-fallback="https://via.placeholder.com/60x60/667eea/ffffff?text=MS"
+                    width="60"
+                    height="60"
+                  />
+                  <i class="fas fa-user-tie" aria-hidden="true"></i>
                 </div>
-                <div class="rec-stat">
-                    <i class="fas fa-thumbs-up" aria-hidden="true"></i>
-                    <h3 data-target="100" aria-label="100 percent positive feedback">100%</h3>
-                    <p>Positive Feedback</p>
-                </div>
-                <div class="rec-stat">
+                <div class="recommender-details">
+                  <h4>Mahmoud Salama</h4>
+                  <p class="recommender-title">
+                    Director of General Administration of Systems, Applications
+                    & Technical Support
+                  </p>
+                  <p class="recommender-company">
+                    Egyptian Authority for Unified Procurement (UPA)
+                  </p>
+                  <p class="relationship">
+                    <i class="fas fa-user-check" aria-hidden="true"></i> Mahmoud
+                    managed Abdelrahman directly
+                  </p>
+                  <div class="rating" role="img" aria-label="5 out of 5 stars">
                     <i class="fas fa-star" aria-hidden="true"></i>
-                    <h3 aria-label="5 star average rating">5★</h3>
-                    <p>Average Rating</p>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                  </div>
                 </div>
+              </div>
+              <a
+                href="https://www.linkedin.com/in/mahmoud-salama-30249b34/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="linkedin-badge"
+                aria-label="View Mahmoud Salama's LinkedIn profile"
+              >
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
             </div>
+            <div class="recommendation-content">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p>
+                I've had the pleasure of working with Abdelrahman, and he's
+                genuinely one of the most reliable and supportive colleagues
+                I've worked with. He understands challenges quickly,
+                communicates clearly, and always steps in to help the team when
+                needed.
+              </p>
+              <p>
+                Abdelrahman brings positive energy to every task and makes
+                collaboration easy and enjoyable. His professionalism,
+                problem-solving skills, and friendly attitude make him a real
+                asset to any team.
+              </p>
+              <p class="recommendation-highlight">
+                <i class="fas fa-award" aria-hidden="true"></i>
+                <strong
+                  >"I highly recommend Abdelrahman — anyone would be lucky to
+                  work with him."</strong
+                >
+              </p>
+            </div>
+            <div class="recommendation-footer">
+              <span class="recommendation-date">
+                <i class="far fa-calendar-alt" aria-hidden="true"></i> November
+                30, 2024
+              </span>
+              <a
+                href="https://www.linkedin.com/in/mahmoud-salama-30249b34/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="view-profile-btn"
+              >
+                View Profile
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
 
-            <!-- View All Button -->
-            <div class="recommendations-cta">
-                <a href="https://www.linkedin.com/in/abdrhmnr/details/recommendations/" 
-                   target="_blank" 
-                   rel="noopener noreferrer" 
-                   class="btn btn-primary">
-                    <i class="fab fa-linkedin" aria-hidden="true"></i> View All Recommendations on LinkedIn
-                </a>
+          <!-- Recommendation 2 - Amr Marey -->
+          <article class="recommendation-card">
+            <div class="recommendation-header">
+              <div class="recommender-info">
+                <div class="recommender-avatar">
+                  <img
+                    src="images/recommenders/amr-marey.jpg"
+                    alt="Amr Marey - Software Engineer"
+                    loading="lazy"
+                    data-fallback="https://via.placeholder.com/60x60/667eea/ffffff?text=AM"
+                    width="60"
+                    height="60"
+                  />
+                  <i class="fas fa-user-tie" aria-hidden="true"></i>
+                </div>
+                <div class="recommender-details">
+                  <h4>Amr Marey</h4>
+                  <p class="recommender-title">Software Engineer</p>
+                  <p class="recommender-company">
+                    Egyptian Authority for Unified Procurement (UPA)
+                  </p>
+                  <p class="relationship">
+                    <i class="fas fa-users" aria-hidden="true"></i> Amr worked
+                    with Abdelrahman on the same team
+                  </p>
+                  <div class="rating" role="img" aria-label="5 out of 5 stars">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://www.linkedin.com/in/amr-marey/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="linkedin-badge"
+                aria-label="View Amr Marey's LinkedIn profile"
+              >
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
             </div>
+            <div class="recommendation-content">
+              <i class="fas fa-quote-left quote-icon" aria-hidden="true"></i>
+              <p>
+                Abdelrahman is one of the best people I worked with. One of
+                those who are dedicated to learn, help, and support others.
+              </p>
+              <p class="recommendation-highlight">
+                <i class="fas fa-award" aria-hidden="true"></i>
+                <strong
+                  >"He proved his skills in data science and data
+                  analysis."</strong
+                >
+              </p>
+            </div>
+            <div class="recommendation-footer">
+              <span class="recommendation-date">
+                <i class="far fa-calendar-alt" aria-hidden="true"></i> November
+                30, 2024
+              </span>
+              <a
+                href="https://www.linkedin.com/in/amr-marey/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="view-profile-btn"
+              >
+                View Profile
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
         </div>
+
+        <!-- Statistics -->
+        <div class="recommendations-stats">
+          <div class="rec-stat">
+            <i class="fas fa-award" aria-hidden="true"></i>
+            <h3 data-target="2" aria-label="2 plus LinkedIn recommendations">
+              2+
+            </h3>
+            <p>LinkedIn Recommendations</p>
+          </div>
+          <div class="rec-stat">
+            <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+            <h3 data-target="100" aria-label="100 percent positive feedback">
+              100%
+            </h3>
+            <p>Positive Feedback</p>
+          </div>
+          <div class="rec-stat">
+            <i class="fas fa-star" aria-hidden="true"></i>
+            <h3 aria-label="5 star average rating">5★</h3>
+            <p>Average Rating</p>
+          </div>
+        </div>
+
+        <!-- View All Button -->
+        <div class="recommendations-cta">
+          <a
+            href="https://www.linkedin.com/in/abdrhmnr/details/recommendations/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            <i class="fab fa-linkedin" aria-hidden="true"></i> View All
+            Recommendations on LinkedIn
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Let's Work Together</h2>
-            <p class="contact-subtitle">
-                Looking for a Data Scientist who delivers measurable results? Let's discuss your project.
-            </p>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon" aria-hidden="true">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:abdrhmnr1@gmail.com" title="Send email (Ctrl+Click to copy)">abdrhmnr1@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon" aria-hidden="true">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div>
-                            <h4>Phone</h4>
-                            <a href="tel:+201064370390">+20 106 437 0390</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon" aria-hidden="true">
-                            <i="fab fa-linkedin"></i>
-                        </div>
-                        <div>
-                            <h4>LinkedIn</h4>
-                            <a href="https://linkedin.com/in/abdrhmnr" target="_blank" rel="noopener noreferrer">linkedin.com/in/abdrhmnr</a>
-                        </div>
-                    </div>
-
-                    <div class="contact-social">
-                        <h4>Follow Me</h4>
-                        <div class="social-links" role="list">
-                            <a href="https://linkedin.com/in/abdrhmnr" 
-                               target="_blank" 
-                               rel="noopener noreferrer" 
-                               class="social-link"
-                               aria-label="Follow on LinkedIn">
-                                <i class="fab fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://github.com/abdrhmnr" 
-                               target="_blank" 
-                               rel="noopener noreferrer" 
-                               class="social-link"
-                               aria-label="Follow on GitHub">
-                                <i class="fab fa-github" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://huggingface.co/abdrhmnr" 
-                               target="_blank" 
-                               rel="noopener noreferrer" 
-                               class="social-link"
-                               aria-label="Follow on HuggingFace">
-                                <span aria-hidden="true">🤗</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="contact-form">
-                    <form id="contactForm" 
-                          action="https://formspree.io/f/xojnvban" 
-                          method="POST"
-                          novalidate>
-                        <div class="form-group">
-                            <input type="text" 
-                                   name="name" 
-                                   placeholder="Your Name" 
-                                   required 
-                                   aria-label="Your name"
-                                   minlength="2"
-                                   maxlength="100"
-                                   autocomplete="name">
-                            <i class="fas fa-user" aria-hidden="true"></i>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" 
-                                   name="email" 
-                                   placeholder="Your Email" 
-                                   required 
-                                   aria-label="Your email"
-                                   autocomplete="email">
-                            <i class="fas fa-envelope" aria-hidden="true"></i>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" 
-                                   name="subject" 
-                                   placeholder="Subject" 
-                                   required 
-                                   aria-label="Message subject"
-                                   minlength="3"
-                                   maxlength="200">
-                            <i class="fas fa-tag" aria-hidden="true"></i>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" 
-                                      placeholder="Your Message" 
-                                      rows="5" 
-                                      required 
-                                      aria-label="Your message"
-                                      minlength="10"
-                                      maxlength="1000"></textarea>
-                            <i class="fas fa-comment" aria-hidden="true"></i>
-                        </div>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
-                        </button>
-                        <div class="form-status" role="alert" aria-live="polite"></div>
-                    </form>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="contact-subtitle">
+          Looking for a Data Scientist who delivers measurable results? Let's
+          discuss your project.
+        </p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a
+                  href="mailto:abdrhmnr1@gmail.com"
+                  title="Send email (Ctrl+Click to copy)"
+                  >abdrhmnr1@gmail.com</a
+                >
+              </div>
             </div>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+201064370390">+20 106 437 0390</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div>
+                <h4>WhatsApp</h4>
+                <a
+                  href="https://wa.me/201064370390?text=Hello%20Abdelrahman%2C%20I%20visited%20your%20portfolio!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >+20 106 437 0390</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">
+                <i ="fab fa-linkedin"></i>
+              </div>
+              <div>
+                <h4>LinkedIn</h4>
+                <a
+                  href="https://linkedin.com/in/abdrhmnr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >linkedin.com/in/abdrhmnr</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <h4>Follow Me</h4>
+              <div class="social-links" role="list">
+                <a
+                  href="https://linkedin.com/in/abdrhmnr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="Follow on LinkedIn"
+                >
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://github.com/abdrhmnr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="Follow on GitHub"
+                >
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://huggingface.co/abdrhmnr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="Follow on HuggingFace"
+                >
+                  <span aria-hidden="true">🤗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/xojnvban"
+              method="POST"
+              novalidate
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                  aria-label="Your name"
+                  minlength="2"
+                  maxlength="100"
+                  autocomplete="name"
+                />
+                <i class="fas fa-user" aria-hidden="true"></i>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                  aria-label="Your email"
+                  autocomplete="email"
+                />
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                  aria-label="Message subject"
+                  minlength="3"
+                  maxlength="200"
+                />
+                <i class="fas fa-tag" aria-hidden="true"></i>
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                  aria-label="Your message"
+                  minlength="10"
+                  maxlength="1000"
+                ></textarea>
+                <i class="fas fa-comment" aria-hidden="true"></i>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i> Send
+                Message
+              </button>
+              <div class="form-status" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer" role="contentinfo">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="logo"><span class="logo-icon" aria-label="Abdelrahman Habeeb">AH</span></div>
-                    <p>Building data-driven solutions with passion for AI.</p>
-                </div>
-                <nav class="footer-links" aria-label="Footer navigation">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </nav>
-                <div class="footer-social" role="list" aria-label="Footer social links">
-                    <a href="https://linkedin.com/in/abdrhmnr" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       aria-label="LinkedIn">
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://github.com/abdrhmnr" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       aria-label="GitHub">
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://huggingface.co/abdrhmnr" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       aria-label="HuggingFace">
-                        <span aria-hidden="true">🤗</span>
-                    </a>
-                </div>
-                <!-- Visit Counter -->
-<div class="visit-counter">
-    <img src="https://hits.sh/abdrhmnr.github.io.svg?style=flat-square&label=👁%20Visitors&color=fbbf24&labelColor=333333" 
-         alt="Visitors"
-         style="height: 26px; border-radius: 5px;">
-</div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-icon" aria-label="Abdelrahman Habeeb">AH</span>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; <span id="currentYear">2025</span> Abdelrahman Habeeb. All rights reserved.</p>
-            </div>
-            
+            <p>Building data-driven solutions with passion for AI.</p>
+          </div>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <div
+            class="footer-social"
+            role="list"
+            aria-label="Footer social links"
+          >
+            <a
+              href="https://linkedin.com/in/abdrhmnr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://github.com/abdrhmnr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://huggingface.co/abdrhmnr"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="HuggingFace"
+            >
+              <span aria-hidden="true">🤗</span>
+            </a>
+          </div>
+          <!-- Visit Counter -->
+          <div class="visit-counter">
+            <img
+              src="https://hits.sh/abdrhmnr.github.io.svg?style=flat-square&label=👁%20Visitors&color=fbbf24&labelColor=333333"
+              alt="Visitors"
+              style="height: 26px; border-radius: 5px"
+            />
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="currentYear">2025</span> Abdelrahman Habeeb. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <!-- Scroll to Top Button -->
-    <button class="scroll-to-top" 
-            id="scrollToTop" 
-            aria-label="Scroll to top"
-            aria-hidden="true">
-        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    <button
+      class="scroll-to-top"
+      id="scrollToTop"
+      aria-label="Scroll to top"
+      aria-hidden="true"
+    >
+      <i class="fas fa-arrow-up" aria-hidden="true"></i>
     </button>
 
     <!-- JavaScript -->
     <script src="js/script.js"></script>
-    
+
     <!-- Update current year automatically -->
     <script>
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
     </script>
     <!-- GoatCounter Analytics -->
-<!-- GoatCounter Analytics -->
-<script data-goatcounter="https://abdelrahman.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-</body>
+    <!-- GoatCounter Analytics -->
+    <script
+      data-goatcounter="https://abdelrahman.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
+  </body>
 </html>

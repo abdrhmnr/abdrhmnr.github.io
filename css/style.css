@@ -19,7 +19,11 @@
     height: 100% !important;
     object-fit: cover !important;
 }
-
+/* WhatsApp Link */
+.whatsapp-link:hover {
+    background: #25D366 !important;
+    color: white !important;
+}
 /* Desktop and Tablet specific */
 @media (min-width: 769px) {
     .profile-image {
